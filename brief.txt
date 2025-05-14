@@ -1,0 +1,23 @@
+Advanced Data Analyst Technical Exercise Brief
+You have been provided with five data files containing simulated information about the sales of a multinational retail company. The files are in a variety of formats and may contain data quality issues. 
+Use any tools of your choosing to ingest the supplied data into a common location where you may combine them to answer eight business questions. You are free to apply any transformation or enrichment that you choose to achieve the best outcome. 
+The simulated data is purposefully messy to mimic the reality that in day-to-day work, we rarely encounter truly clean data and may need to make certain assumptions, compromises, or engineering decisions. There is no perfect solution, so simply try your best with the data available and make note of all the issues you face and any assumptions or compromises you make.
+Please prepare answers to both the business and process questions below and return them, along with any code you wish to share, via your LBG recruitment contact.
+If invited to interview, you will be asked to talk through your solution with LBG data engineers, including any testing or exception handling you have implemented.
+Optionally at interview, if you choose to, you may also present data visualisation using tools of your choice to provide further insight into the company’s performance.
+
+Business Questions
+Based on the data available:
+1)	Which region had the highest total sales by value in 2013Q1?
+2)	What is the overall highest selling product, by quantity, in EU South?
+3)	Which African country contributed the greatest profit in June 2014?
+4)	How many customers placed orders totalling greater than £4000 in 2011Q2?
+5)	In which country did the customer with the highest value of sales in April 2013 live?
+6)	What was the % split of customer segments when ordering furniture in US East in 2014?
+7)	Which country received the highest average discount on technology products in January 2012?
+8)	Based on the data available, please describe any business recommendations you would make to increase profitability.
+
+Process Questions
+1)	Please describe your method for combining the data, with particular reference to your design and tooling choices.
+2)	Please describe any data quality issues you encountered and any steps that you took to manage these.
+3)	Please describe any other limitations you encountered with the available data, any assumptions and compromises you have had to make and any data recommendations you would make if this were a real-world scenario.

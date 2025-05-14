@@ -1,0 +1,1123 @@
+	Region_ID	State	Country	Market	Region
+0	6554348	California	United States	US	West
+2	6554349	National Capital	Philippines	APAC	Southeast Asia
+6	6554350	New York	United States	US	East
+8	6554351	Distrito Federal	Mexico	LATAM	North
+12	6554352	Madrid	Spain	EU	South
+14	6554353	Sinaloa	Mexico	LATAM	North
+15	6554354	Texas	United States	US	Central
+19	6554355	Berlin	Germany	EU	Central
+20	6554356	England	United Kingdom	EU	North
+24	6554357	Uttar Pradesh	India	APAC	Central Asia
+25	6554358	Western Visayas	Philippines	APAC	Southeast Asia
+28	6554359	Minnesota	United States	US	Central
+38	6554360	New South Wales	Australia	APAC	Oceania
+40	6554361	Ile-de-France	France	EU	Central
+41	6554362	Tamil Nadu	India	APAC	Central Asia
+43	6554363	Wellington	New Zealand	APAC	Oceania
+46	6554364	Nebraska	United States	US	Central
+48	6554365	Lombardy	Italy	EU	South
+49	6554366	Jalisco	Mexico	LATAM	North
+50	6554367	Oregon	United States	US	West
+51	6554368	Maharashtra	India	APAC	Central Asia
+52	6554369	Tennessee	United States	US	South
+53	6554370	Nuevo León	Mexico	LATAM	North
+54	6554371	Lima (city)	Peru	LATAM	South
+58	6554372	Arizona	United States	US	West
+59	6554373	Georgia	United States	US	South
+62	6554374	Michoacán	Mexico	LATAM	North
+64	6554375	Ouest	Haiti	LATAM	Caribbean
+65	6554376	Apulia	Italy	EU	South
+70	6554377	Pays de la Loire	France	EU	Central
+71	6554378	Kabul	Afghanistan	APAC	Central Asia
+76	6554379	Santa Fe	Argentina	LATAM	South
+77	6554380	Rhode Island	United States	US	East
+79	6554381	Sonora	Mexico	LATAM	North
+84	6554382	Connecticut	United States	US	East
+85	6554383	Jakarta	Indonesia	APAC	Southeast Asia
+86	6554384	Midi-Pyrénées	France	EU	Central
+87	6554385	Rhône-Alpes	France	EU	Central
+93	6554386	México	Mexico	LATAM	North
+97	6554387	Jawa Timur	Indonesia	APAC	Southeast Asia
+99	6554388	Baja California	Mexico	LATAM	North
+100	6554389	Saxony	Germany	EU	Central
+101	6554390	Missouri	United States	US	Central
+106	6554391	Michigan	United States	US	Central
+111	6554392	South Australia	Australia	APAC	Oceania
+112	6554393	Bangkok	Thailand	APAC	Southeast Asia
+113	6554394	North Carolina	United States	US	South
+114	6554395	Mayabeque	Cuba	LATAM	Caribbean
+118	6554396	Junín	Peru	LATAM	South
+119	6554397	Hordaland	Norway	EU	North
+122	6554398	Telangana	India	APAC	Central Asia
+123	6554399	Pennsylvania	United States	US	East
+126	6554400	Hong Kong	Hong Kong	APAC	North Asia
+129	6554401	Massachusetts	United States	US	East
+132	6554402	Coahuila	Mexico	LATAM	North
+133	6554403	Campania	Italy	EU	South
+137	6554404	Artemisa	Cuba	LATAM	Caribbean
+138	6554405	Aquitaine	France	EU	Central
+142	6554406	Jawa Tengah	Indonesia	APAC	Southeast Asia
+146	6554407	Oklahoma	United States	US	Central
+149	6554408	Santo Domingo	Dominican Republic	LATAM	Caribbean
+152	6554409	Ceará	Brazil	LATAM	South
+154	6554410	Vienna	Austria	EU	Central
+161	6554411	Camagüey	Cuba	LATAM	Caribbean
+162	6554412	Queensland	Australia	APAC	Oceania
+167	6554413	Kentucky	United States	US	South
+171	6554414	Panama	Panama	LATAM	Central
+172	6554415	Chittagong	Bangladesh	APAC	Central Asia
+174	6554416	Sumatera Utara	Indonesia	APAC	Southeast Asia
+178	6554417	Scotland	United Kingdom	EU	North
+181	6554418	Victoria	Australia	APAC	Oceania
+182	6554419	Perak	Malaysia	APAC	Southeast Asia
+187	6554421	La Pampa	Argentina	LATAM	South
+195	6554422	Balikesir	Turkey	EMEA	EMEA
+196	6554423	Dnipropetrovs'k	Ukraine	EMEA	EMEA
+198	6554424	Dagestan	Russia	EMEA	EMEA
+199	6554425	Bursa	Turkey	EMEA	EMEA
+200	6554426	Hrodna	Belarus	EMEA	EMEA
+201	6554427	Kankan	Guinea	Africa	Africa
+202	6554428	Ankara	Turkey	EMEA	EMEA
+203	6554429	Lodz	Poland	EMEA	EMEA
+206	6554430	Makkah	Saudi Arabia	EMEA	EMEA
+207	6554431	Lagos	Nigeria	Africa	Africa
+208	6554432	Mono	Benin	Africa	Africa
+209	6554433	Nairobi	Kenya	Africa	Africa
+210	6554434	Quebec	Canada	Canada	Canada
+211	6554435	Southern	Zambia	Africa	Africa
+216	6554436	Bie	Angola	Africa	Africa
+220	6554437	Ontario	Canada	Canada	Canada
+221	6554438	Bechar	Algeria	Africa	Africa
+222	6554439	Volyn	Ukraine	EMEA	EMEA
+223	6554440	Šiauliai	Lithuania	EMEA	EMEA
+226	6554441	Alger	Algeria	Africa	Africa
+229	6554442	Anambra	Nigeria	Africa	Africa
+233	6554443	Abia	Nigeria	Africa	Africa
+236	6554444	Bishkek	Kyrgyzstan	EMEA	EMEA
+237	6554445	Banghazi	Libya	Africa	Africa
+238	6554446	L'viv	Ukraine	EMEA	EMEA
+239	6554447	Rabat-Salé-Zemmour-Zaer	Morocco	Africa	Africa
+240	6554448	Eastern Cape	South Africa	Africa	Africa
+241	6554449	Enugu	Nigeria	Africa	Africa
+243	6554450	Ninawa	Iraq	EMEA	EMEA
+245	6554451	Washington	United States	US	West
+248	6554452	Sicily	Italy	EU	South
+253	6554453	Veneto	Italy	EU	South
+255	6554454	São Paulo	Brazil	LATAM	South
+259	6554455	Guatemala	Guatemala	LATAM	Central
+261	6554456	North Rhine-Westphalia	Germany	EU	Central
+266	6554457	Hubei	China	APAC	North Asia
+268	6554458	North Brabant	Netherlands	EU	Central
+285	6554459	Santa Catarina	Brazil	LATAM	South
+289	6554460	Nord-Pas-de-Calais	France	EU	Central
+290	6554461	Provence-Alpes-Côte d'Azur	France	EU	Central
+299	6554462	León	Nicaragua	EU	North
+302	6554463	Dà Nang	Vietnam	APAC	Southeast Asia
+307	6554464	Saarland	Germany	EU	Central
+311	6554465	Sumatera Selatan	Indonesia	APAC	Southeast Asia
+317	6554466	Karnataka	India	APAC	Central Asia
+319	6554467	San Salvador	El Salvador	LATAM	Central
+321	6554468	Singapore	Singapore	APAC	Southeast Asia
+324	6554469	Bali	Indonesia	APAC	Southeast Asia
+326	6554470	Liaoning	China	APAC	North Asia
+330	6554471	Virginia	United States	US	South
+332	6554472	Choluteca	Honduras	LATAM	Central
+335	6554473	Antioquia	Colombia	LATAM	South
+340	6554474	New Hampshire	United States	US	East
+346	6554475	Shanxi	China	APAC	North Asia
+351	6554476	Auckland	New Zealand	APAC	Oceania
+352	6554477	North Holland	Netherlands	EU	Central
+353	6554478	La Libertad	El Salvador	LATAM	Central
+356	6554479	Magdalena	Colombia	LATAM	South
+360	6554480	Oslo	Norway	EU	North
+369	6554481	Indiana	United States	US	Central
+375	6554482	Chiriquí	Panama	LATAM	Central
+378	6554483	Puebla	Mexico	LATAM	North
+381	6554484	Kerala	India	APAC	Central Asia
+387	6554485	Lower Saxony	Germany	EU	Central
+392	6554486	Puno	Peru	LATAM	South
+395	6554487	Australian Capital Territory	Australia	APAC	Oceania
+396	6554488	Francisco Morazán	Honduras	LATAM	Central
+404	6554489	Pernambuco	Brazil	LATAM	South
+405	6554490	San Luis Potosí	Mexico	LATAM	North
+415	6554491	Norte de Santander	Colombia	LATAM	South
+419	6554492	Andalusía	Spain	EU	South
+428	6554493	Illinois	United States	US	Central
+436	6554494	La Rioja	Argentina	LATAM	South
+437	6554495	Dublin	Ireland	EU	North
+446	6554496	Managua	Nicaragua	APAC	Central
+455	6554497	Catalonia	Spain	EU	South
+456	6554498	Daegu	South Korea	APAC	North Asia
+459	6554499	Cuscatlán	El Salvador	LATAM	Central
+465	6554500	Yucatán	Mexico	LATAM	North
+473	6554501	Zhejiang	China	APAC	North Asia
+475	6554502	Poitou-Charentes	France	EU	Central
+484	6554503	Aragua	Venezuela	LATAM	South
+498	6554504	Colorado	United States	US	West
+502	6554505	Las Tunas	Cuba	LATAM	Caribbean
+511	6554506	Baden-Württemberg	Germany	EU	Central
+523	6554507	Ohio	United States	US	East
+527	6554508	Cienfuegos	Cuba	LATAM	Caribbean
+541	6554509	Bahia	Brazil	LATAM	South
+543	6554510	Saxony-Anhalt	Germany	EU	Central
+544	6554511	Madhya Pradesh	India	APAC	Central Asia
+545	6554512	Lower Normandy	France	EU	Central
+550	6554513	Thủ Dô Hà Nội	Vietnam	APAC	Southeast Asia
+557	6554514	Goiás	Brazil	LATAM	South
+564	6554515	Lazio	Italy	EU	South
+566	6554516	Mississippi	United States	US	South
+569	6554517	San Pedro de Macorís	Dominican Republic	LATAM	Caribbean
+571	6554518	Fujian	China	APAC	North Asia
+574	6554519	Languedoc-Roussillon	France	EU	Central
+579	6554520	New Mexico	United States	US	West
+586	6554521	Holguín	Cuba	LATAM	Caribbean
+592	6554522	Eastern	Ghana	Africa	Africa
+593	6554523	Vinnytsya	Ukraine	EMEA	EMEA
+595	6554524	Kharkiv	Ukraine	EMEA	EMEA
+596	6554525	Orientale	Democratic Republic of the Congo	Africa	Africa
+597	6554526	Usti nad Labem	Czech Republic	EMEA	EMEA
+610	6554527	Inner Mongolia	China	APAC	North Asia
+612	6554528	Phnom Penh	Cambodia	APAC	Southeast Asia
+613	6554529	Bavaria	Germany	EU	Central
+616	6554530	Atlántico	Colombia	LATAM	South
+617	6554531	Lisboa	Portugal	EU	South
+626	6554532	Kalimantan Selatan	Indonesia	APAC	Southeast Asia
+636	6554533	Punjab	Pakistan	APAC	Central Asia
+645	6554534	Mykolayiv	Ukraine	EMEA	EMEA
+646	6554535	Copperbelt	Zambia	Africa	Africa
+650	6554536	Qom	Iran	EMEA	EMEA
+652	6554537	Zaporizhzhya	Ukraine	EMEA	EMEA
+655	6554538	Centre	Cameroon	Africa	Africa
+659	6554539	Khuzestan	Iran	EMEA	EMEA
+660	6554540	Fars	Iran	EMEA	EMEA
+665	6554541	Podlaskie	Poland	EMEA	EMEA
+666	6554542	Masovia	Poland	EMEA	EMEA
+668	6554543	Izmir	Turkey	EMEA	EMEA
+670	6554544	Niamey	Niger	Africa	Africa
+672	6554545	Adana	Turkey	EMEA	EMEA
+673	6554546	Western Cape	South Africa	Africa	Africa
+675	6554547	Istanbul	Turkey	EMEA	EMEA
+676	6554548	Ashanti	Ghana	Africa	Africa
+677	6554549	Grand Casablanca	Morocco	Africa	Africa
+684	6554550	Kinshasa	Democratic Republic of the Congo	Africa	Africa
+685	6554551	Sistan Va Baluchestan	Iran	EMEA	EMEA
+688	6554552	Mehedinti	Romania	EMEA	EMEA
+689	6554553	Diyala	Iraq	EMEA	EMEA
+690	6554554	Marrakech-Tensift-El Haouz	Morocco	Africa	Africa
+693	6554555	Harare	Zimbabwe	Africa	Africa
+694	6554556	Baghdad	Iraq	EMEA	EMEA
+695	6554557	Kaunas	Lithuania	EMEA	EMEA
+699	6554558	Harjumaa	Estonia	EMEA	EMEA
+702	6554559	Silesia	Poland	EMEA	EMEA
+710	6554560	Maritime	Togo	Africa	Africa
+728	6554561	Alagoas	Brazil	LATAM	South
+729	6554562	Villa Clara	Cuba	LATAM	Caribbean
+746	6554563	Castile and León	Spain	EU	South
+748	6554564	Mecklenburg-Vorpommern	Germany	EU	Central
+749	6554565	Bremen	Germany	EU	Central
+753	6554566	Guangxi	China	APAC	North Asia
+756	6554567	Yunnan	China	APAC	North Asia
+760	6554568	Tamaulipas	Mexico	LATAM	North
+766	6554569	Tasmania	Australia	APAC	Oceania
+768	6554570	Florida	United States	US	South
+776	6554571	Sulawesi Tengah	Indonesia	APAC	Southeast Asia
+777	6554572	Jharkhand	India	APAC	Central Asia
+781	6554573	Bolivar	Venezuela	LATAM	South
+784	6554574	La Vega	Dominican Republic	LATAM	Caribbean
+789	6554575	Louisiana	United States	US	South
+795	6554576	Chimaltenango	Guatemala	LATAM	Central
+796	6554577	Peravia	Dominican Republic	LATAM	Caribbean
+797	6554578	Jawa Barat	Indonesia	APAC	Southeast Asia
+803	6554579	Veracruz	Mexico	LATAM	North
+804	6554580	Canterbury	New Zealand	APAC	Oceania
+807	6554581	West Bengal	India	APAC	Central Asia
+808	6554582	Punjab	India	APAC	Central Asia
+815	6554583	Miranda	Venezuela	LATAM	South
+818	6554584	Jiangsu	China	APAC	North Asia
+826	6554585	Rajasthan	India	APAC	Central Asia
+833	6554586	Stockholm	Sweden	EU	North
+846	6554587	Tuscany	Italy	EU	South
+852	6554588	Buenos Aires	Argentina	LATAM	South
+861	6554589	Hunan	China	APAC	North Asia
+865	6554590	Rio de Janeiro	Brazil	LATAM	South
+874	6554591	Daejeon	South Korea	APAC	North Asia
+875	6554592	Västra Götaland	Sweden	EU	North
+878	6554593	Limousin	France	EU	Central
+882	6554594	Tỉnh Cần Thơ	Vietnam	APAC	Southeast Asia
+895	6554596	Ouest	Cameroon	Africa	Africa
+898	6554597	Al Basrah	Iraq	EMEA	EMEA
+903	6554598	Kwazulu-natal	South Africa	Africa	Africa
+904	6554599	Manisa	Turkey	EMEA	EMEA
+907	6554600	Djelfa	Algeria	Africa	Africa
+913	6554601	Al Iskandariyah	Egypt	Africa	Africa
+916	6554602	Saskatchewan	Canada	Canada	Canada
+917	6554603	Greater Accra	Ghana	Africa	Africa
+920	6554604	Gauteng	South Africa	Africa	Africa
+921	6554605	Ar Riyad	Saudi Arabia	EMEA	EMEA
+922	6554606	Qostanay	Kazakhstan	EMEA	EMEA
+925	6554607	Luhans'k	Ukraine	EMEA	EMEA
+929	6554608	Banaadir	Somalia	Africa	Africa
+930	6554609	Bauchi	Nigeria	Africa	Africa
+933	6554610	Vienna	Austria	EMEA	EMEA
+938	6554611	Tel Aviv	Israel	EMEA	EMEA
+942	6554612	Dolj	Romania	EMEA	EMEA
+945	6554613	Chaouia-Ouardigha	Morocco	Africa	Africa
+946	6554614	Al Qahirah	Egypt	Africa	Africa
+951	6554615	Amazonas	Brazil	LATAM	South
+956	6554616	Centre	France	EU	Central
+961	6554617	Western Australia	Australia	APAC	Oceania
+967	6554618	Guanajuato	Mexico	LATAM	North
+976	6554619	Shandong	China	APAC	North Asia
+977	6554620	Henan	China	APAC	North Asia
+979	6554621	Delhi	India	APAC	Central Asia
+983	6554622	Montana	United States	US	West
+987	6554623	Granma	Cuba	LATAM	Caribbean
+990	6554624	Tokyo	Japan	APAC	North Asia
+1000	6554625	Elazig	Turkey	EMEA	EMEA
+1019	6554626	East Flanders	Belgium	EU	Central
+1020	6554627	Hovedstaden	Denmark	EU	North
+1027	6554628	Saint Michael	Barbados	LATAM	Caribbean
+1030	6554629	Parana	Brazil	LATAM	South
+1039	6554630	Santiago	Chile	LATAM	South
+1048	6554631	Busan	South Korea	APAC	North Asia
+1050	6554632	New Jersey	United States	US	East
+1058	6554633	O'Higgins	Chile	LATAM	South
+1063	6554634	Bogota	Colombia	LATAM	South
+1064	6554635	Sindh	Pakistan	APAC	Central Asia
+1066	6554636	Bihar	India	APAC	Central Asia
+1076	6554637	Hebei	China	APAC	North Asia
+1087	6554638	Salta	Argentina	LATAM	South
+1100	6554639	Martinique	Martinique	LATAM	Caribbean
+1101	6554640	Kalimantan Barat	Indonesia	APAC	Southeast Asia
+1122	6554641	Chihuahua	Mexico	LATAM	North
+1128	6554642	Anhui	China	APAC	North Asia
+1135	6554643	Tyrol	Austria	EU	Central
+1137	6554644	Guantánamo	Cuba	LATAM	Caribbean
+1138	6554645	South Holland	Netherlands	EU	Central
+1147	6554646	Santiago	Dominican Republic	LATAM	Caribbean
+1157	6554647	South Kivu	Democratic Republic of the Congo	Africa	Africa
+1164	6554648	Razavi Khorasan	Iran	EMEA	EMEA
+1168	6554649	Kilimanjaro	Tanzania	Africa	Africa
+1173	6554650	Zhambyl	Kazakhstan	EMEA	EMEA
+1176	6554651	Buzau	Romania	EMEA	EMEA
+1180	6554652	Kiên Giang	Vietnam	APAC	Southeast Asia
+1184	6554653	Utah	United States	US	West
+1191	6554654	Guangdong	China	APAC	North Asia
+1196	6554655	Rio Grande do Sul	Brazil	LATAM	South
+1203	6554656	Northland	New Zealand	APAC	Oceania
+1217	6554657	San Juan	Argentina	LATAM	South
+1221	6554658	Alsace	France	EU	Central
+1224	6554659	Cortés	Honduras	LATAM	Central
+1227	6554660	Gansu	China	APAC	North Asia
+1231	6554661	Estelí	Nicaragua	APAC	Central
+1238	6554662	Mato Grosso	Brazil	LATAM	South
+1240	6554663	Friuli-Venezia Giulia	Italy	EU	South
+1241	6554664	Nevada	United States	US	West
+1280	6554665	Calabarzon	Philippines	APAC	Southeast Asia
+1293	6554666	Durango	Mexico	LATAM	North
+1294	6554667	Artibonite	Haiti	LATAM	Caribbean
+1309	6554668	Matanzas	Cuba	LATAM	Caribbean
+1310	6554669	Taranaki	New Zealand	APAC	Oceania
+1312	6554670	Rhineland-Palatinate	Germany	EU	Central
+1316	6554671	Finland Proper	Finland	EU	North
+1317	6554672	Zulia	Venezuela	LATAM	South
+1327	6554673	Jambi	Indonesia	APAC	Southeast Asia
+1352	6554674	Maranhão	Brazil	LATAM	South
+1378	6554675	Escuintla	Guatemala	LATAM	Central
+1396	6554676	Emilia-Romagna	Italy	EU	South
+1428	6554677	Calabria	Italy	EU	South
+1449	6554678	Sardinia	Italy	EU	South
+1463	6554679	Abruzzi	Italy	EU	South
+1464	6554680	Andhra Pradesh	India	APAC	Central Asia
+1500	6554681	Pará	Brazil	LATAM	South
+1510	6554682	Lorraine	France	EU	Central
+1519	6554683	Wisconsin	United States	US	Central
+1535	6554684	Tocantins	Brazil	LATAM	South
+1538	6554685	Montevideo	Uruguay	LATAM	South
+1582	6554686	Piedmont	Italy	EU	South
+1615	6554687	Paraíba	Brazil	LATAM	South
+1636	6554688	Est	Cameroon	Africa	Africa
+1638	6554689	Cidade De Maputo	Mozambique	Africa	Africa
+1641	6554690	British Columbia	Canada	Canada	Canada
+1645	6554691	Northern	Ghana	Africa	Africa
+1648	6554692	Prague	Czech Republic	EMEA	EMEA
+1650	6554693	Sanliurfa	Turkey	EMEA	EMEA
+1654	6554694	Maputo	Mozambique	Africa	Africa
+1657	6554695	'Amman	Jordan	EMEA	EMEA
+1667	6554696	Antalya	Turkey	EMEA	EMEA
+1669	6554697	Oyo	Nigeria	Africa	Africa
+1671	6554698	Ondo	Nigeria	Africa	Africa
+1673	6554699	Kassala	Sudan	Africa	Africa
+1674	6554700	Dar Es Salaam	Tanzania	Africa	Africa
+1678	6554701	Tanger-Tétouan	Morocco	Africa	Africa
+1679	6554702	Gulu	Uganda	Africa	Africa
+1685	6554703	Southern	Rwanda	Africa	Africa
+1686	6554704	Kayseri	Turkey	EMEA	EMEA
+1691	6554705	Khomas	Namibia	Africa	Africa
+1697	6554706	Alberta	Canada	Canada	Canada
+1700	6554707	Dakar	Senegal	Africa	Africa
+1701	6554708	Mersin	Turkey	EMEA	EMEA
+1705	6554709	Kano	Nigeria	Africa	Africa
+1710	6554710	Coast	Kenya	Africa	Africa
+1711	6554711	Ardabil	Iran	EMEA	EMEA
+1715	6554712	Ruvuma	Tanzania	Africa	Africa
+1724	6554713	Akwa Ibom	Nigeria	Africa	Africa
+1733	6554714	Khmel'nyts'kyy	Ukraine	EMEA	EMEA
+1735	6554715	Zambezia	Mozambique	Africa	Africa
+1737	6554716	Ivanovo	Russia	EMEA	EMEA
+1741	6554717	Kampala	Uganda	Africa	Africa
+1747	6554718	Adamaoua	Cameroon	Africa	Africa
+1750	6554719	Mostaganem	Algeria	Africa	Africa
+1752	6554720	Delta	Nigeria	Africa	Africa
+1781	6554721	Chongqing	China	APAC	North Asia
+1784	6554722	Yogyakarta	Indonesia	APAC	Southeast Asia
+1786	6554723	Mie	Japan	APAC	North Asia
+1803	6554724	Huehuetenango	Guatemala	LATAM	Central
+1805	6554725	San Luis	Argentina	LATAM	South
+1829	6554726	Haryana	India	APAC	Central Asia
+1831	6554727	Namur	Belgium	EU	Central
+1837	6554728	Brittany	France	EU	Central
+1844	6554729	West Flanders	Belgium	EU	Central
+1873	6554730	Utrecht	Netherlands	EU	Central
+1888	6554731	Quintana Roo	Mexico	LATAM	North
+1923	6554732	Santiago de Cuba	Cuba	LATAM	Caribbean
+1932	6554733	Trentino-Alto Adige	Italy	EU	South
+1956	6554734	Assam	India	APAC	Central Asia
+1996	6554735	Limburg	Belgium	EU	Central
+2007	6554736	Chaco	Argentina	LATAM	South
+2017	6554737	Thuringia	Germany	EU	Central
+2023	6554738	La Romana	Dominican Republic	LATAM	Caribbean
+2045	6554739	Federal District	Brazil	LATAM	South
+2067	6554740	Alabama	United States	US	South
+2076	6554741	Heilongjiang	China	APAC	North Asia
+2081	6554742	Minas Gerais	Brazil	LATAM	South
+2088	6554743	Brandenburg	Germany	EU	Central
+2105	6554744	Hyogo	Japan	APAC	North Asia
+2106	6554745	Kalimantan Timur	Indonesia	APAC	Southeast Asia
+2113	6554746	Uttarakhand	India	APAC	Central Asia
+2174	6554748	Valenciana	Spain	EU	South
+2184	6554749	Pavlodar	Kazakhstan	EMEA	EMEA
+2201	6554750	Nitra	Slovakia	EMEA	EMEA
+2209	6554751	Ad Dawhah	Qatar	EMEA	EMEA
+2210	6554752	Katanga	Democratic Republic of the Congo	Africa	Africa
+2212	6554753	Pazardzhik	Bulgaria	EMEA	EMEA
+2214	6554754	Rivers	Nigeria	Africa	Africa
+2218	6554755	Pomerania	Poland	EMEA	EMEA
+2219	6554756	Rift Valley	Kenya	Africa	Africa
+2223	6554757	Dayr Az Zawr	Syria	EMEA	EMEA
+2234	6554758	Hamadan	Iran	EMEA	EMEA
+2237	6554759	Van	Turkey	EMEA	EMEA
+2238	6554760	Nouakchott	Mauritania	Africa	Africa
+2239	6554761	Luanda	Angola	Africa	Africa
+2246	6554762	Bulawayo	Zimbabwe	Africa	Africa
+2256	6554763	Gharb-Chrarda-Béni Hssen	Morocco	Africa	Africa
+2258	6554764	Oran	Algeria	Africa	Africa
+2264	6554765	Lorestan	Iran	EMEA	EMEA
+2267	6554766	Nord	Cameroon	Africa	Africa
+2273	6554767	Fès-Boulemane	Morocco	Africa	Africa
+2316	6554768	Voronezh	Russia	EMEA	EMEA
+2319	6554769	Kahramanmaras	Turkey	EMEA	EMEA
+2322	6554770	Timis	Romania	EMEA	EMEA
+2337	6554771	Rio Grande do Norte	Brazil	LATAM	South
+2361	6554772	Maryland	United States	US	East
+2394	6554773	Basque Country	Spain	EU	South
+2427	6554774	Hamburg	Germany	EU	Central
+2431	6554775	Tianjin	China	APAC	North Asia
+2435	6554776	Puducherry	India	APAC	Central Asia
+2453	6554777	Cojedes	Venezuela	LATAM	South
+2508	6554778	Batna	Algeria	Africa	Africa
+2509	6554779	Jerusalem	Israel	EMEA	EMEA
+2522	6554780	Astrakhan'	Russia	EMEA	EMEA
+2524	6554781	Tehran	Iran	EMEA	EMEA
+2527	6554782	Borno	Nigeria	Africa	Africa
+2535	6554783	Al Minya	Egypt	Africa	Africa
+2546	6554784	Eskisehir	Turkey	EMEA	EMEA
+2550	6554785	Khartoum	Sudan	Africa	Africa
+2554	6554786	Lesser Poland	Poland	EMEA	EMEA
+2568	6554787	Sumy	Ukraine	EMEA	EMEA
+2569	6554788	Huambo	Angola	Africa	Africa
+2570	6554789	Saint-Louis	Senegal	Africa	Africa
+2582	6554790	Dire Dawa	Ethiopia	Africa	Africa
+2584	6554791	Kasai-Occidental	Democratic Republic of the Congo	Africa	Africa
+2585	6554792	Denizli	Turkey	EMEA	EMEA
+2622	6554793	Sabah	Malaysia	APAC	Southeast Asia
+2625	6554794	Kanagawa	Japan	APAC	North Asia
+2684	6554795	Shanghai	China	APAC	North Asia
+2688	6554796	Sonsonate	El Salvador	LATAM	Central
+2694	6554797	Ho Chí Minh City	Vietnam	APAC	Southeast Asia
+2699	6554798	Zürich	Switzerland	EU	Central
+2707	6554799	Otago	New Zealand	APAC	Oceania
+2742	6554800	Ulaanbaatar	Mongolia	EMEA	EMEA
+2746	6554801	Homyel'	Belarus	EMEA	EMEA
+2749	6554802	Lagunes	Cote d'Ivoire	Africa	Africa
+2779	6554803	Riau	Indonesia	APAC	Southeast Asia
+2786	6554804	Gyeonggi	South Korea	APAC	North Asia
+2812	6554805	Niger	Nigeria	Africa	Africa
+2826	6554806	Hawke's Bay	New Zealand	APAC	Oceania
+2860	6554807	Upper Normandy	France	EU	Central
+2873	6554808	Manawatu-Wanganui	New Zealand	APAC	Oceania
+2882	6554809	South Carolina	United States	US	South
+2901	6554810	Sichuan	China	APAC	North Asia
+2942	6554811	Hajdu-Bihar	Hungary	EMEA	EMEA
+2961	6554812	Chisinau	Moldova	EMEA	EMEA
+2964	6554813	Sergipe	Brazil	LATAM	South
+2974	6554814	Chhattisgarh	India	APAC	Central Asia
+2976	6554815	Castile-La Mancha	Spain	EU	South
+3008	6554816	Kymenlaakso	Finland	EU	North
+3034	6554817	South Denmark	Denmark	EU	North
+3037	6554818	Córdoba	Argentina	LATAM	South
+3089	6554819	Valparaíso	Chile	LATAM	South
+3103	6554820	Rogaland	Norway	EU	North
+3134	6554821	Yangon	Myanmar (Burma)	APAC	Southeast Asia
+3146	6554822	Dhaka	Bangladesh	APAC	Central Asia
+3150	6554823	Uusimaa	Finland	EU	North
+3156	6554824	Santa Ana	El Salvador	LATAM	Central
+3169	6554825	Yoro	Honduras	LATAM	Central
+3202	6554826	Marche	Italy	EU	South
+3221	6554827	Pinar del Río	Cuba	LATAM	Caribbean
+3224	6554828	Irkutsk	Russia	EMEA	EMEA
+3225	6554829	Kigali	Rwanda	Africa	Africa
+3231	6554830	Constantine	Algeria	Africa	Africa
+3241	6554831	Gaziantep	Turkey	EMEA	EMEA
+3246	6554832	Budapest	Hungary	EMEA	EMEA
+3247	6554833	Hormozgan	Iran	EMEA	EMEA
+3254	6554834	Donetsk	Ukraine	EMEA	EMEA
+3261	6554835	Yazd	Iran	EMEA	EMEA
+3265	6554836	Bashkortostan	Russia	EMEA	EMEA
+3266	6554837	Babil	Iraq	EMEA	EMEA
+3272	6554838	Kayes	Mali	Africa	Africa
+3275	6554839	Lubusz	Poland	EMEA	EMEA
+3276	6554840	Extreme-Nord	Cameroon	Africa	Africa
+3277	6554841	Maniema	Democratic Republic of the Congo	Africa	Africa
+3282	6554842	Klaipeda	Lithuania	EMEA	EMEA
+3290	6554843	Ash Sharqiyah	Saudi Arabia	EMEA	EMEA
+3302	6554844	Chelyabinsk	Russia	EMEA	EMEA
+3305	6554845	Basel-Stadt	Switzerland	EU	Central
+3313	6554846	Liguria	Italy	EU	South
+3338	6554847	Huila	Colombia	LATAM	South
+3362	6554848	Acre	Brazil	LATAM	South
+3404	6554849	Lima	Peru	LATAM	South
+3405	6554850	Beijing	China	APAC	North Asia
+3420	6554851	Overijssel	Netherlands	EU	Central
+3427	6554852	Picardy	France	EU	Central
+3428	6554853	F.C.T.	Pakistan	APAC	Central Asia
+3441	6554854	Shaanxi	China	APAC	North Asia
+3473	6554855	Sucre	Venezuela	LATAM	South
+3481	6554856	Khulna	Bangladesh	APAC	Central Asia
+3550	6554857	Rondônia	Brazil	LATAM	South
+3578	6554858	Upper Austria	Austria	EU	Central
+3579	6554859	Jammu and Kashmir	India	APAC	Central Asia
+3642	6554860	Bay of Plenty	New Zealand	APAC	Oceania
+3655	6554861	Mazandaran	Iran	EMEA	EMEA
+3657	6554862	Southern	Israel	EMEA	EMEA
+3662	6554863	Al Qadisiyah	Iraq	EMEA	EMEA
+3663	6554864	Semnan	Iran	EMEA	EMEA
+3665	6554865	Littoral	Benin	Africa	Africa
+3667	6554866	Markazi	Iran	EMEA	EMEA
+3679	6554867	Plovdiv	Bulgaria	EMEA	EMEA
+3681	6554868	Kaliningrad	Russia	EMEA	EMEA
+3683	6554869	Littoral	Cameroon	Africa	Africa
+3684	6554870	Al Gharbiyah	Egypt	Africa	Africa
+3704	6554871	Manica	Mozambique	Africa	Africa
+3728	6554872	Kasai-Oriental	Democratic Republic of the Congo	Africa	Africa
+3739	6554873	Ordu	Turkey	EMEA	EMEA
+3740	6554874	Almaty City	Kazakhstan	EMEA	EMEA
+3747	6554875	Atakora	Benin	Africa	Africa
+3759	6554876	Salzburg	Austria	EU	Central
+3766	6554877	Limburg	Netherlands	EU	Central
+3780	6554878	Anzoátegui	Venezuela	LATAM	South
+3786	6554879	Chiapas	Mexico	LATAM	North
+3803	6554880	Tabasco	Mexico	LATAM	North
+3806	6554881	Amapá	Brazil	LATAM	South
+3813	6554882	Ciego de Ávila	Cuba	LATAM	Caribbean
+3863	6554883	Galati	Romania	EMEA	EMEA
+3900	6554884	Zacatecas	Mexico	LATAM	North
+3938	6554885	Wales	United Kingdom	EU	North
+3976	6554886	Hims	Syria	EMEA	EMEA
+3983	6554887	Kermanshah	Iran	EMEA	EMEA
+3988	6554888	Arbil	Iraq	EMEA	EMEA
+3990	6554889	Souss-Massa-Draâ	Morocco	Africa	Africa
+4004	6554890	Jilin	China	APAC	North Asia
+4008	6554891	Sylhet	Bangladesh	APAC	Central Asia
+4017	6554892	Shizuoka	Japan	APAC	North Asia
+4032	6554893	Free State	South Africa	Africa	Africa
+4033	6554894	Diffa	Niger	Africa	Africa
+4038	6554895	Trabzon	Turkey	EMEA	EMEA
+4106	6554896	Nampula	Mozambique	Africa	Africa
+4110	6554897	Benguela	Angola	Africa	Africa
+4112	6554898	Bamako	Mali	Africa	Africa
+4115	6554899	Atlántida	Honduras	LATAM	Central
+4123	6554900	Barahona	Dominican Republic	LATAM	Caribbean
+4141	6554901	Cochabamba	Bolivia	LATAM	South
+4147	6554902	National Capital	Papua New Guinea	APAC	Oceania
+4151	6554903	Negeri Sembilan	Malaysia	APAC	Southeast Asia
+4161	6554904	Cesar	Colombia	LATAM	South
+4201	6554905	Hesse	Germany	EU	Central
+4227	6554906	Nyanza	Kenya	Africa	Africa
+4230	6554907	Prahova	Romania	EMEA	EMEA
+4233	6554908	Bolu	Turkey	EMEA	EMEA
+4234	6554909	Red Sea	Sudan	Africa	Africa
+4246	6554910	Mendoza	Argentina	LATAM	South
+4268	6554911	Burgundy	France	EU	Central
+4279	6554912	Hainaut	Belgium	EU	Central
+4288	6554913	Caldas	Colombia	LATAM	South
+4298	6554914	Ceuta	Spain	EU	South
+4353	6554915	Drenthe	Netherlands	EU	Central
+4377	6554916	Tottori	Japan	APAC	North Asia
+4414	6554917	Kuala Lumpur	Malaysia	APAC	Southeast Asia
+4417	6554918	Umbria	Italy	EU	South
+4471	6554919	Hirat	Afghanistan	APAC	Central Asia
+4481	6554920	Maluku	Indonesia	APAC	Southeast Asia
+4559	6554921	Gelderland	Netherlands	EU	Central
+4579	6554922	Duarte	Dominican Republic	LATAM	Caribbean
+4599	6554923	Southland	New Zealand	APAC	Oceania
+4602	6554924	Quezaltenango	Guatemala	LATAM	Central
+4624	6554925	Guayas	Ecuador	LATAM	South
+4676	6554926	Lara	Venezuela	LATAM	South
+4681	6554927	Lublin	Poland	EMEA	EMEA
+4689	6554928	Kerman	Iran	EMEA	EMEA
+4693	6554929	Qaraghandy	Kazakhstan	EMEA	EMEA
+4708	6554930	Medea	Algeria	Africa	Africa
+4726	6554931	Niassa	Mozambique	Africa	Africa
+4733	6554932	Sofiya-Grad	Bulgaria	EMEA	EMEA
+4736	6554933	Corum	Turkey	EMEA	EMEA
+4740	6554934	Ogun	Nigeria	Africa	Africa
+4747	6554935	Mwanza	Tanzania	Africa	Africa
+4749	6554936	Esfahan	Iran	EMEA	EMEA
+4755	6554937	Maysan	Iraq	EMEA	EMEA
+4768	6554938	Kwara	Nigeria	Africa	Africa
+4772	6554939	Grad Zagreb	Croatia	EMEA	EMEA
+4828	6554940	Antwerp	Belgium	EU	Central
+4842	6554941	Santa Cruz	Bolivia	LATAM	South
+4863	6554942	Santander	Colombia	LATAM	South
+4893	6554943	Trengganu	Malaysia	APAC	Southeast Asia
+4914	6554944	Cordillera	Philippines	APAC	Southeast Asia
+4928	6554945	Aomori	Japan	APAC	North Asia
+4951	6554946	Iowa	United States	US	Central
+4959	6554947	Sancti Spíritus	Cuba	LATAM	Caribbean
+4970	6554948	Kansas	United States	US	Central
+4972	6554949	Södermanland	Sweden	EU	North
+5005	6554950	Vallee Du Bandama	Cote d'Ivoire	Africa	Africa
+5013	6554951	Kindia	Guinea	Africa	Africa
+5016	6554952	Shinyanga	Tanzania	Africa	Africa
+5018	6554953	Beirut	Lebanon	EMEA	EMEA
+5038	6554954	Diyarbakir	Turkey	EMEA	EMEA
+5044	6554955	Lacs	Cote d'Ivoire	Africa	Africa
+5049	6554956	Doukkala-Abda	Morocco	Africa	Africa
+5079	6554957	Northern Territory	Australia	APAC	Oceania
+5151	6554958	Chandigarh	India	APAC	Central Asia
+5215	6554959	Champagne-Ardenne	France	EU	Central
+5228	6554960	Gujarat	India	APAC	Central Asia
+5245	6554961	Seoul	South Korea	APAC	North Asia
+5257	6554962	Central Luzon	Philippines	APAC	Southeast Asia
+5343	6554963	Morelos	Mexico	LATAM	North
+5439	6554964	Bryansk	Russia	EMEA	EMEA
+5450	6554965	Analamanga	Madagascar	Africa	Africa
+5451	6554966	Dhi Qar	Iraq	EMEA	EMEA
+5462	6554967	Malatya	Turkey	EMEA	EMEA
+5464	6554968	Kaduna	Nigeria	Africa	Africa
+5471	6554969	White Nile	Sudan	Africa	Africa
+5482	6554970	Panevezys	Lithuania	EMEA	EMEA
+5495	6554971	Khyber Pakhtunkhwa	Pakistan	APAC	Central Asia
+5560	6554972	Pahang	Malaysia	APAC	Southeast Asia
+5637	6554973	Centrale	Togo	Africa	Africa
+5654	6554974	Sumatera Barat	Indonesia	APAC	Southeast Asia
+5691	6554975	Delaware	United States	US	East
+5700	6554976	Saint Catherine	Jamaica	LATAM	Caribbean
+5740	6554977	Valcea	Romania	EMEA	EMEA
+5749	6554978	Greater Poland	Poland	EMEA	EMEA
+5782	6554979	Ulsan	South Korea	APAC	North Asia
+5810	6554980	Misratah	Libya	Africa	Africa
+5878	6554981	Provincia de Buenos Aires	Argentina	LATAM	South
+5917	6554982	Manabi	Ecuador	LATAM	South
+5947	6554983	Murcia	Spain	EU	South
+6016	6554984	Nelson	New Zealand	APAC	Oceania
+6061	6554985	Guizhou	China	APAC	North Asia
+6074	6554986	Cherkasy	Ukraine	EMEA	EMEA
+6080	6554987	Ziguinchor	Senegal	Africa	Africa
+6091	6554988	Imereti	Georgia	EMEA	EMEA
+6098	6554989	Guelma	Algeria	Africa	Africa
+6102	6554990	Ash Sharqiyah	Egypt	Africa	Africa
+6107	6554991	Mopti	Mali	Africa	Africa
+6109	6554992	Al Madinah	Saudi Arabia	EMEA	EMEA
+6128	6554993	Distrito Capital	Venezuela	LATAM	South
+6176	6554994	Ancash	Peru	LATAM	South
+6177	6554995	Piura	Peru	LATAM	South
+6234	6554996	Maramures	Romania	EMEA	EMEA
+6237	6554997	Kordestan	Iran	EMEA	EMEA
+6259	6554998	South Dublin	Ireland	EU	North
+6327	6554999	Igdir	Turkey	EMEA	EMEA
+6335	6555000	Vilnius	Lithuania	EMEA	EMEA
+6348	6555001	Sikasso	Mali	Africa	Africa
+6350	6555002	Lusaka	Zambia	Africa	Africa
+6377	6555003	Borgou	Benin	Africa	Africa
+6379	6555004	Yobe	Nigeria	Africa	Africa
+6380	6555005	Kara	Togo	Africa	Africa
+6472	6555006	Värmland	Sweden	EU	North
+6501	6555007	Cork	Ireland	EU	North
+6537	6555008	San Juan	Dominican Republic	LATAM	Caribbean
+6582	6555009	Quindío	Colombia	LATAM	South
+6654	6555010	La Paz	Bolivia	LATAM	South
+6675	6555011	Kumanovo	Macedonia	EMEA	EMEA
+6700	6555012	Yaroslavl'	Russia	EMEA	EMEA
+6713	6555013	Laghouat	Algeria	Africa	Africa
+6715	6555014	Erzurum	Turkey	EMEA	EMEA
+6722	6555015	Tunis	Tunisia	Africa	Africa
+6725	6555016	Al Jawf	Saudi Arabia	EMEA	EMEA
+6750	6555017	Mato Grosso do Sul	Brazil	LATAM	South
+6776	6555018	Hokkaido	Japan	APAC	North Asia
+6815	6555019	Qinghai	China	APAC	North Asia
+6895	6555020	Gunma	Japan	APAC	North Asia
+6929	6555021	Liège	Belgium	EU	Central
+6956	6555022	Azuay	Ecuador	LATAM	South
+6963	6555023	Colima	Mexico	LATAM	North
+7014	6555024	Bolívar	Colombia	LATAM	South
+7045	6555025	Sulawesi Tenggara	Indonesia	APAC	Southeast Asia
+7062	6555026	Magallanes y Antártica Chilena	Chile	LATAM	South
+7069	6555027	Balti	Moldova	EMEA	EMEA
+7079	6555028	Salzburg	Austria	EMEA	EMEA
+7080	6555029	Alibori	Benin	Africa	Africa
+7081	6555030	Tbilisi	Georgia	EMEA	EMEA
+7083	6555031	Bangui	Central African Republic	Africa	Africa
+7087	6555032	Cluj	Romania	EMEA	EMEA
+7111	6555033	Aydin	Turkey	EMEA	EMEA
+7120	6555034	Kherson	Ukraine	EMEA	EMEA
+7124	6555035	Botosani	Romania	EMEA	EMEA
+7135	6555036	Constanta	Romania	EMEA	EMEA
+7164	6555037	Biobio	Chile	LATAM	South
+7184	6555038	Galicia	Spain	EU	South
+7211	6555039	Vaud	Switzerland	EU	Central
+7245	6555040	Nakhon Ratchasima	Thailand	APAC	Southeast Asia
+7265	6555041	Colón	Panama	LATAM	Central
+7267	6555042	Groningen	Netherlands	EU	Central
+7284	6555043	Tolima	Colombia	LATAM	South
+7297	6555044	Callao	Peru	LATAM	South
+7298	6555045	Guerrero	Mexico	LATAM	North
+7300	6555046	Guadeloupe	Guadeloupe	LATAM	Caribbean
+7334	6555047	Auvergne	France	EU	Central
+7419	6555048	Yamaguchi	Japan	APAC	North Asia
+7424	6555049	Brest	Belarus	EMEA	EMEA
+7427	6555050	Arkhangel'sk	Russia	EMEA	EMEA
+7433	6555051	Bandundu	Democratic Republic of the Congo	Africa	Africa
+7443	6555052	Yevrey	Russia	EMEA	EMEA
+7460	6555053	Ashgabat	Turkmenistan	EMEA	EMEA
+7467	6555054	Cabo Delgado	Mozambique	Africa	Africa
+7473	6555055	Kirsehir	Turkey	EMEA	EMEA
+7480	6555056	Bushehr	Iran	EMEA	EMEA
+7482	6555057	Bissau	Guinea-Bissau	Africa	Africa
+7490	6555058	Aswan	Egypt	Africa	Africa
+7493	6555059	Kirovohrad	Ukraine	EMEA	EMEA
+7579	6555060	Schleswig-Holstein	Germany	EU	Central
+7618	6555061	Zanjan	Iran	EMEA	EMEA
+7653	6555062	Aichi	Japan	APAC	North Asia
+7689	6555063	Asturias	Spain	EU	South
+7772	6555064	South Dakota	United States	US	Central
+7825	6555065	Campeche	Mexico	LATAM	North
+7872	6555066	Roraima	Brazil	LATAM	South
+8002	6555067	Gezira	Sudan	Africa	Africa
+8015	6555068	Tyrol	Austria	EMEA	EMEA
+8044	6555069	Baki	Azerbaijan	EMEA	EMEA
+8115	6555070	Osaka	Japan	APAC	North Asia
+8143	6555071	Espírito Santo	Brazil	LATAM	South
+8178	6555072	Vermont	United States	US	East
+8223	6555073	Iasi	Romania	EMEA	EMEA
+8234	6555074	Edo	Nigeria	Africa	Africa
+8282	6555075	Odisha	India	APAC	Central Asia
+8293	6555076	Entre Ríos	Argentina	LATAM	South
+8339	6555077	Baja California Sur	Mexico	LATAM	North
+8352	6555078	Melilla	Spain	EU	South
+8400	6555079	Styria	Austria	EU	Central
+8427	6555080	Atacama	Chile	LATAM	South
+8510	6555081	Chiba	Japan	APAC	North Asia
+8602	6555082	Basilicata	Italy	EU	South
+8696	6555083	Ica	Peru	LATAM	South
+8773	6555084	Southern	Sierra Leone	Africa	Africa
+8812	6555085	Al Hudaydah	Yemen	EMEA	EMEA
+8829	6555086	Saida	Algeria	Africa	Africa
+8839	6555087	Al Minufiyah	Egypt	Africa	Africa
+8862	6555088	Samsun	Turkey	EMEA	EMEA
+8876	6555089	Osmaniye	Turkey	EMEA	EMEA
+9148	6555090	Boeny	Madagascar	Africa	Africa
+9151	6555091	Adamawa	Nigeria	Africa	Africa
+9160	6555092	Nzérékoré	Guinea	Africa	Africa
+9258	6555093	Suhaj	Egypt	Africa	Africa
+9265	6555094	Katsina	Nigeria	Africa	Africa
+9441	6555095	Konya	Turkey	EMEA	EMEA
+9447	6555096	Meknès-Tafilalet	Morocco	Africa	Africa
+9552	6555097	Tarija	Bolivia	LATAM	South
+9555	6555098	San Cristóbal	Dominican Republic	LATAM	Caribbean
+9558	6555099	Arkansas	United States	US	South
+9631	6555100	Waikato	New Zealand	APAC	Oceania
+9641	6555101	Jiangxi	China	APAC	North Asia
+9675	6555102	Carabobo	Venezuela	LATAM	South
+9699	6555103	Ta'izz	Yemen	EMEA	EMEA
+9707	6555104	Ivano-Frankivsk	Ukraine	EMEA	EMEA
+9712	6555105	Sevastopol'	Ukraine	EMEA	EMEA
+9724	6555106	Tabuk	Saudi Arabia	EMEA	EMEA
+9733	6555107	Asyut	Egypt	Africa	Africa
+9736	6555108	Aksaray	Turkey	EMEA	EMEA
+9739	6555109	Arusha	Tanzania	Africa	Africa
+9741	6555110	'Asir	Saudi Arabia	EMEA	EMEA
+9748	6555111	Thies	Senegal	Africa	Africa
+9776	6555112	Central	Paraguay	LATAM	South
+9791	6555113	Nagasaki	Japan	APAC	North Asia
+9884	6555114	Franche-Comté	France	EU	Central
+9940	6555116	Sud-Ouest	Cameroon	Africa	Africa
+9964	6555117	Yalova	Turkey	EMEA	EMEA
+9968	6555118	Al Bahr Al Ahmar	Egypt	Africa	Africa
+10022	6555119	Valle del Cauca	Colombia	LATAM	South
+10076	6555120	Ningxia	China	APAC	North Asia
+10119	6555121	Bern	Switzerland	EU	Central
+10133	6555122	Cundinamarca	Colombia	LATAM	South
+10289	6555123	Porto	Portugal	EU	South
+10447	6555124	Belgorod	Russia	EMEA	EMEA
+10473	6555125	Zhytomyr	Ukraine	EMEA	EMEA
+10494	6555126	Gyor	Hungary	EMEA	EMEA
+10504	6555127	Gilan	Iran	EMEA	EMEA
+10516	6555128	Hradec Kralove	Czech Republic	EMEA	EMEA
+10524	6555129	Federation of Bosnia and Herzegovina	Bosnia and Herzegovina	EMEA	EMEA
+10537	6555130	Taza-Al Hoceima-Taounate	Morocco	Africa	Africa
+10546	6555131	Cross River	Nigeria	Africa	Africa
+10620	6555132	Kaluga	Russia	EMEA	EMEA
+10732	6555133	North-West	South Africa	Africa	Africa
+10744	6555134	Tlemcen	Algeria	Africa	Africa
+10962	6555135	Abuja Capital Territory	Nigeria	Africa	Africa
+10981	6555136	Bur Sa'id	Egypt	Africa	Africa
+10988	6555137	Khatlon	Tajikistan	EMEA	EMEA
+11009	6555138	Bingol	Turkey	EMEA	EMEA
+11028	6555139	Oruro	Bolivia	LATAM	South
+11050	6555140	Skåne	Sweden	EU	North
+11227	6555141	San Fernando	Trinidad and Tobago	LATAM	Caribbean
+11261	6555142	Pichincha	Ecuador	LATAM	South
+11284	6555143	Selangor	Malaysia	APAC	Southeast Asia
+11321	6555144	Sarawak	Malaysia	APAC	Southeast Asia
+11425	6555145	North Dakota	United States	US	Central
+11484	6555146	Coimbra	Portugal	EU	South
+11544	6555147	Khánh Hòa	Vietnam	APAC	Southeast Asia
+11584	6555148	Mbeya	Tanzania	Africa	Africa
+11587	6555149	Woqooyi Galbeed	Somalia	Africa	Africa
+11597	6555150	Sirnak	Turkey	EMEA	EMEA
+11611	6555151	Tanga	Tanzania	Africa	Africa
+11647	6555152	Neamt	Romania	EMEA	EMEA
+11655	6555153	Djibouti	Djibouti	Africa	Africa
+11697	6555154	Ternopil'	Ukraine	EMEA	EMEA
+11755	6555155	Chuquisaca	Bolivia	LATAM	South
+11843	6555156	Giurgiu	Romania	EMEA	EMEA
+11848	6555157	Astana	Kazakhstan	EMEA	EMEA
+11850	6555158	Maseru	Lesotho	Africa	Africa
+11854	6555159	Mara	Tanzania	Africa	Africa
+11918	6555160	Nord-Ouest	Cameroon	Africa	Africa
+11937	6555161	Central	Nepal	APAC	Central Asia
+11952	6555162	Querétaro	Mexico	LATAM	North
+11976	6555163	Atlantique	Benin	Africa	Africa
+11982	6555164	Nayarit	Mexico	LATAM	North
+12014	6555165	District of Columbia	United States	US	East
+12038	6555166	Upper Austria	Austria	EMEA	EMEA
+12125	6555167	Braga	Portugal	EU	South
+12191	6555168	Monagas	Venezuela	LATAM	South
+12264	6555169	La Libertad	Peru	LATAM	South
+12478	6555170	Isla de la Juventud	Cuba	LATAM	Caribbean
+12566	6555171	Primorsko-Goranska	Croatia	EMEA	EMEA
+12584	6555172	Annaba	Algeria	Africa	Africa
+12650	6555173	Ayacucho	Peru	LATAM	South
+12736	6555174	Maradi	Niger	Africa	Africa
+12747	6555175	Tipaza	Algeria	Africa	Africa
+12804	6555176	Estuaire	Gabon	Africa	Africa
+12811	6555177	Haifa	Israel	EMEA	EMEA
+12847	6555178	Western	Sri Lanka	APAC	Central Asia
+12864	6555179	Shumen	Bulgaria	EMEA	EMEA
+12904	6555180	Hidalgo	Mexico	LATAM	North
+12913	6555181	Almaty	Kazakhstan	EMEA	EMEA
+13086	6555182	Malanje	Angola	Africa	Africa
+13108	6555183	Bejaia	Algeria	Africa	Africa
+13123	6555184	Al Buhayrah	Egypt	Africa	Africa
+13318	6555185	Satu Mare	Romania	EMEA	EMEA
+13473	6555186	Carinthia	Austria	EU	Central
+13692	6555187	Hainan	China	APAC	North Asia
+13697	6555188	Nagano	Japan	APAC	North Asia
+13722	6555189	Namangan	Uzbekistan	EMEA	EMEA
+13755	6555190	Rize	Turkey	EMEA	EMEA
+13786	6555191	Moravian-Silesian	Czech Republic	EMEA	EMEA
+13820	6555192	Jujuy	Argentina	LATAM	South
+14030	6555193	Oita	Japan	APAC	North Asia
+14108	6555194	Marlborough	New Zealand	APAC	Oceania
+14135	6555195	Skikda	Algeria	Africa	Africa
+14153	6555196	Al Fayyum	Egypt	Africa	Africa
+14191	6555197	Central	Ghana	Africa	Africa
+14194	6555198	Plateaux	Togo	Africa	Africa
+14196	6555199	Jizan	Saudi Arabia	EMEA	EMEA
+14198	6555200	Ebonyi	Nigeria	Africa	Africa
+14357	6555201	Navarra	Spain	EU	South
+14428	6555202	Mardin	Turkey	EMEA	EMEA
+14445	6555203	Banská Bystrica	Slovakia	EMEA	EMEA
+14446	6555204	Manitoba	Canada	Canada	Canada
+14572	6555205	Ishikawa	Japan	APAC	North Asia
+14632	6555206	Ouémé	Benin	Africa	Africa
+14780	6555207	Idaho	United States	US	West
+14847	6555208	Mérida	Venezuela	LATAM	South
+14855	6555209	Antofagasta	Chile	LATAM	South
+14932	6555210	Gyeongsangnam	South Korea	APAC	North Asia
+14966	6555211	Bas-Congo	Democratic Republic of the Congo	Africa	Africa
+14974	6555212	Varna	Bulgaria	EMEA	EMEA
+14988	6555213	Dix-Huit Montagnes	Cote d'Ivoire	Africa	Africa
+14996	6555214	Jubbada Hoose	Somalia	Africa	Africa
+15104	6555215	Chubut	Argentina	LATAM	South
+15121	6555216	Papua	Indonesia	APAC	Southeast Asia
+15171	6555217	Sofala	Mozambique	Africa	Africa
+15236	6555218	Manipur	India	APAC	Central Asia
+15301	6555219	Beni	Bolivia	LATAM	South
+15314	6555220	Nevsehir	Turkey	EMEA	EMEA
+15343	6555221	Portuguesa	Venezuela	LATAM	South
+15354	6555222	Sulawesi Utara	Indonesia	APAC	Southeast Asia
+15442	6555223	Benue	Nigeria	Africa	Africa
+15460	6555224	Karbala'	Iraq	EMEA	EMEA
+15468	6555225	Namibe	Angola	Africa	Africa
+15698	6555226	Hiroshima	Japan	APAC	North Asia
+15738	6555227	Adiyaman	Turkey	EMEA	EMEA
+16138	6555228	Piauí	Brazil	LATAM	South
+16181	6555229	Hatay	Turkey	EMEA	EMEA
+16186	6555230	Surxondaryo	Uzbekistan	EMEA	EMEA
+16209	6555231	Manicaland	Zimbabwe	Africa	Africa
+16247	6555232	Ra's Al Khaymah	United Arab Emirates	EMEA	EMEA
+16249	6555233	Plateau	Nigeria	Africa	Africa
+16256	6555234	Vitsyebsk	Belarus	EMEA	EMEA
+16387	6555235	Zamfara	Nigeria	Africa	Africa
+16395	6555236	Liberec	Czech Republic	EMEA	EMEA
+16408	6555237	Balearic Islands	Spain	EU	South
+16435	6555238	Atsinanana	Madagascar	Africa	Africa
+16440	6555239	Irbid	Jordan	EMEA	EMEA
+16717	6555240	West Virginia	United States	US	East
+16792	6555241	Yambol	Bulgaria	EMEA	EMEA
+16852	6555242	Bekes	Hungary	EMEA	EMEA
+16857	6555243	Imo	Nigeria	Africa	Africa
+16940	6555244	Corsica	France	EU	Central
+16948	6555245	Eastern	Kenya	Africa	Africa
+17070	6555246	South Khorasan	Iran	EMEA	EMEA
+17376	6555247	Corrientes	Argentina	LATAM	South
+17472	6555248	Chernihiv	Ukraine	EMEA	EMEA
+17483	6555249	Korçë	Albania	EMEA	EMEA
+17541	6555250	Nova Scotia	Canada	Canada	Canada
+17546	6555251	Bihor	Romania	EMEA	EMEA
+17570	6555252	Stavropol'	Russia	EMEA	EMEA
+17688	6555253	Litoral	Equatorial Guinea	Africa	Africa
+17868	6555254	Mary	Turkmenistan	EMEA	EMEA
+17878	6555255	Muharraq	Bahrain	EMEA	EMEA
+17884	6555256	Andijan	Uzbekistan	EMEA	EMEA
+17925	6555257	Nusa Tenggara Barat	Indonesia	APAC	Southeast Asia
+17945	6555258	Gombe	Nigeria	Africa	Africa
+17948	6555259	Tadla-Azilal	Morocco	Africa	Africa
+18034	6555260	Central Equatoria	South Sudan	Africa	Africa
+18080	6555261	Neuquén	Argentina	LATAM	South
+18178	6555262	Buskerud	Norway	EU	North
+18251	6555263	Tekirdag	Turkey	EMEA	EMEA
+18292	6555264	Nariño	Colombia	LATAM	South
+18450	6555265	Aqmola	Kazakhstan	EMEA	EMEA
+18537	6555266	Kocaeli	Turkey	EMEA	EMEA
+18544	6555267	Nusa Tenggara Timur	Indonesia	APAC	Southeast Asia
+18566	6555268	Xinjiang Uygur	China	APAC	North Asia
+18765	6555269	South Chungcheong	South Korea	APAC	North Asia
+18774	6555270	Shkodër	Albania	EMEA	EMEA
+18781	6555271	Hunedoara	Romania	EMEA	EMEA
+18899	6555272	Carinthia	Austria	EMEA	EMEA
+18970	6555273	Sliven	Bulgaria	EMEA	EMEA
+19081	6555274	Loreto	Peru	LATAM	South
+19259	6555275	Taipei City	Taiwan	APAC	North Asia
+19289	6555276	Mpumalanga	South Africa	Africa	Africa
+19301	6555277	Bani Suwayf	Egypt	Africa	Africa
+19331	6555278	Bacau	Romania	EMEA	EMEA
+19366	6555279	Los Lagos	Chile	LATAM	South
+19403	6555280	Rivne	Ukraine	EMEA	EMEA
+19481	6555281	Gisborne	New Zealand	APAC	Oceania
+19599	6555282	Vargas	Venezuela	LATAM	South
+19640	6555283	Poltava	Ukraine	EMEA	EMEA
+19783	6555284	Fukuoka	Japan	APAC	North Asia
+19988	6555285	Montserrado	Liberia	Africa	Africa
+20066	6555286	Limpopo	South Africa	Africa	Africa
+20071	6555287	Osun	Nigeria	Africa	Africa
+20185	6555288	Brasov	Romania	EMEA	EMEA
+20202	6555289	Amur	Russia	EMEA	EMEA
+20209	6555290	Isparta	Turkey	EMEA	EMEA
+20228	6555291	Ucayali	Peru	LATAM	South
+20368	6555292	Córdoba	Colombia	LATAM	South
+20475	6555293	Bistrita-Nasaud	Romania	EMEA	EMEA
+20555	6555294	Northern	Zambia	Africa	Africa
+20686	6555295	Cantabria	Spain	EU	South
+20692	6555296	Saitama	Japan	APAC	North Asia
+20924	6555297	Qazvin	Iran	EMEA	EMEA
+20981	6555298	Canakkale	Turkey	EMEA	EMEA
+21000	6555299	Rajshahi	Bangladesh	APAC	Central Asia
+21183	6555300	Lori	Armenia	EMEA	EMEA
+21329	6555301	Equateur	Democratic Republic of the Congo	Africa	Africa
+21332	6555302	Manzini	Swaziland	Africa	Africa
+21453	6555303	Amasya	Turkey	EMEA	EMEA
+21539	6555304	Atsimo-Andrefana	Madagascar	Africa	Africa
+21545	6555305	Espaillat	Dominican Republic	LATAM	Caribbean
+21559	6555306	Risaralda	Colombia	LATAM	South
+21569	6555307	Zealand	Denmark	EU	North
+21603	6555308	Al Marqab	Libya	Africa	Africa
+21698	6555309	Niari	Republic of the Congo	Africa	Africa
+21708	6555310	Arad	Romania	EMEA	EMEA
+21763	6555311	Geneva	Switzerland	EU	Central
+22034	6555312	Ardahan	Turkey	EMEA	EMEA
+22055	6555313	Siirt	Turkey	EMEA	EMEA
+22266	6555314	Casanare	Colombia	LATAM	South
+22334	6555315	Plzen	Czech Republic	EMEA	EMEA
+22584	6555316	Pleven	Bulgaria	EMEA	EMEA
+22585	6555317	Iringa	Tanzania	Africa	Africa
+22586	6555318	'Ajman	United Arab Emirates	EMEA	EMEA
+22589	6555319	Durrës	Albania	EMEA	EMEA
+22614	6555320	Vlorë	Albania	EMEA	EMEA
+22896	6555321	Zeeland	Netherlands	EU	Central
+22967	6555322	Jizzakh	Uzbekistan	EMEA	EMEA
+23359	6555323	Khorezm	Uzbekistan	EMEA	EMEA
+23366	6555324	North Lebanon	Lebanon	EMEA	EMEA
+23646	6555325	Mashonaland West	Zimbabwe	Africa	Africa
+23685	6555326	Vrancea	Romania	EMEA	EMEA
+23688	6555327	Kabardino-Balkariya	Russia	EMEA	EMEA
+23824	6555328	Paysandú	Uruguay	LATAM	South
+24024	6555329	Düzce	Turkey	EMEA	EMEA
+24058	6555330	Kutahya	Turkey	EMEA	EMEA
+24554	6555331	Uppsala	Sweden	EU	North
+24664	6555332	Brussels	Belgium	EU	Central
+24713	6555333	Vladimir	Russia	EMEA	EMEA
+24722	6555334	Haut-Sassandra	Cote d'Ivoire	Africa	Africa
+24893	6555335	Flemish Brabant	Belgium	EU	Central
+24930	6555336	Rivera	Uruguay	LATAM	South
+24932	6555337	Northern Mindanao	Philippines	APAC	Southeast Asia
+25065	6555338	Styria	Austria	EMEA	EMEA
+25129	6555339	Sud	Cameroon	Africa	Africa
+25254	6555340	Saga	Japan	APAC	North Asia
+25350	6555341	Moquegua	Peru	LATAM	South
+25445	6555342	Baluchistan	Pakistan	APAC	Central Asia
+25524	6555343	Afyonkarahisar	Turkey	EMEA	EMEA
+25537	6555344	Diana	Madagascar	Africa	Africa
+26108	6555345	Qina	Egypt	Africa	Africa
+26244	6555346	Setúbal	Portugal	EU	South
+26373	6555347	Kars	Turkey	EMEA	EMEA
+26411	6555348	Tochigi	Japan	APAC	North Asia
+26674	6555349	Bujumbura-Mairie	Burundi	Africa	Africa
+26699	6555350	Santiago del Estero	Argentina	LATAM	South
+26736	6555351	Arequipa	Peru	LATAM	South
+26985	6555352	Donga	Benin	Africa	Africa
+27010	6555353	Anseba	Eritrea	Africa	Africa
+27123	6555354	Friesland	Netherlands	EU	Central
+27179	6555355	Sivas	Turkey	EMEA	EMEA
+27419	6555356	Golestan	Iran	EMEA	EMEA
+27544	6555357	Mures	Romania	EMEA	EMEA
+27554	6555358	Ibb	Yemen	EMEA	EMEA
+27612	6555359	Bengkulu	Indonesia	APAC	Southeast Asia
+27835	6555360	Kandahar	Afghanistan	APAC	Central Asia
+28145	6555361	Fukui	Japan	APAC	North Asia
+28206	6555362	Monseñor Nouel	Dominican Republic	LATAM	Caribbean
+28314	6555363	Catamarca	Argentina	LATAM	South
+28682	6555364	Kigoma	Tanzania	Africa	Africa
+28855	6555365	Maine	United States	US	East
+28901	6555366	Gorj	Romania	EMEA	EMEA
+29121	6555367	Aceh	Indonesia	APAC	Southeast Asia
+29272	6555368	Guárico	Venezuela	LATAM	South
+29398	6555369	Central	Zambia	Africa	Africa
+29455	6555370	Chaguanas	Trinidad and Tobago	LATAM	Caribbean
+29793	6555371	Canelones	Uruguay	LATAM	South
+29890	6555372	Osjecko-Baranjska	Croatia	EMEA	EMEA
+29893	6555373	Usak	Turkey	EMEA	EMEA
+29907	6555374	Zagrebacka	Croatia	EMEA	EMEA
+30337	6555375	Grand Gedeh	Liberia	Africa	Africa
+30613	6555376	Central	Israel	EMEA	EMEA
+30659	6555377	Guelmim-Es Semara	Morocco	Africa	Africa
+30933	6555378	Kagawa	Japan	APAC	North Asia
+30966	6555379	Morogoro	Tanzania	Africa	Africa
+30972	6555380	Braila	Romania	EMEA	EMEA
+30982	6555381	Kafr Ash Shaykh	Egypt	Africa	Africa
+31008	6555382	Huila	Angola	Africa	Africa
+31091	6555383	Los Rios	Ecuador	LATAM	South
+31125	6555384	Wyoming	United States	US	West
+31150	6555385	Nigde	Turkey	EMEA	EMEA
+31162	6555386	Kastamonu	Turkey	EMEA	EMEA
+31218	6555387	Central Jutland	Denmark	EU	North
+31255	6555388	Okayama	Japan	APAC	North Asia
+31334	6555389	Ibaraki	Japan	APAC	North Asia
+31634	6555390	Tripura	India	APAC	Central Asia
+32037	6555391	Arica y Parinacota	Chile	LATAM	South
+32192	6555392	Arges	Romania	EMEA	EMEA
+32209	6555393	Osh	Kyrgyzstan	EMEA	EMEA
+32340	6555394	St. Gallen	Switzerland	EU	Central
+32354	6555395	Salah Ad Din	Iraq	EMEA	EMEA
+32684	6555396	Galway	Ireland	EU	North
+32698	6555397	Oaxaca	Mexico	LATAM	North
+32775	6555398	Tete	Mozambique	Africa	Africa
+32781	6555399	Mtwara	Tanzania	Africa	Africa
+32802	6555400	Suceava	Romania	EMEA	EMEA
+33194	6555401	Burgas	Bulgaria	EMEA	EMEA
+33218	6555402	Opole	Poland	EMEA	EMEA
+33233	6555403	Karaman	Turkey	EMEA	EMEA
+33239	6555404	Savanes	Cote d'Ivoire	Africa	Africa
+33443	6555405	Tokat	Turkey	EMEA	EMEA
+33446	6555406	Žilina	Slovakia	EMEA	EMEA
+33746	6555407	Caras-Severin	Romania	EMEA	EMEA
+34022	6555408	Tartumaa	Estonia	EMEA	EMEA
+34060	6555409	Arauca	Colombia	LATAM	South
+34139	6555410	Lambayeque	Peru	LATAM	South
+34223	6555411	Sidi Bel Abbes	Algeria	Africa	Africa
+34931	6555412	Novosibirsk	Russia	EMEA	EMEA
+34999	6555413	Asunción	Paraguay	LATAM	South
+35067	6555414	Tabora	Tanzania	Africa	Africa
+35627	6555415	Northern	Sierra Leone	Africa	Africa
+35721	6555416	Ilam	Iran	EMEA	EMEA
+35954	6555417	Newfoundland	Canada	Canada	Canada
+35958	6555418	Caquetá	Colombia	LATAM	South
+36069	6555419	Matabeleland North	Zimbabwe	Africa	Africa
+36080	6555420	Halland	Sweden	EU	North
+36253	6555421	Ar Raqqah	Syria	EMEA	EMEA
+36254	6555422	Bitola	Macedonia	EMEA	EMEA
+36265	6555423	Qashqadaryo	Uzbekistan	EMEA	EMEA
+36271	6555424	Novgorod	Russia	EMEA	EMEA
+36476	6555425	Sibiu	Romania	EMEA	EMEA
+36532	6555426	Pwani	Tanzania	Africa	Africa
+36912	6555427	Sokoto	Nigeria	Africa	Africa
+37404	6555428	Batman	Turkey	EMEA	EMEA
+37765	6555429	Kilis	Turkey	EMEA	EMEA
+37897	6555430	Central	Kenya	Africa	Africa
+38009	6555431	Nueva Esparta	Venezuela	LATAM	South
+38081	6555432	Pernik	Bulgaria	EMEA	EMEA
+38105	6555433	Tizi Ouzou	Algeria	Africa	Africa
+38265	6555434	Eastern	Zambia	Africa	Africa
+38377	6555435	Táchira	Venezuela	LATAM	South
+38481	6555436	Aveiro	Portugal	EU	South
+38538	6555437	Boyacá	Colombia	LATAM	South
+38750	6555438	Haute-Matsiatra	Madagascar	Africa	Africa
+39446	6555439	Inhambane	Mozambique	Africa	Africa
+39672	6555440	Lebap	Turkmenistan	EMEA	EMEA
+40025	6555441	Olomouc	Czech Republic	EMEA	EMEA
+40396	6555442	Extremadura	Spain	EU	South
+40918	6555443	Chocó	Colombia	LATAM	South
+41075	6555444	Zinder	Niger	Africa	Africa
+41164	6555445	Matruh	Egypt	Africa	Africa
+41272	6555446	Kabarole	Uganda	Africa	Africa
+41514	6555447	Podgorica	Montenegro	EMEA	EMEA
+41670	6555448	Misiones	Argentina	LATAM	South
+41673	6555449	Cajamarca	Peru	LATAM	South
+41692	6555450	Fromager	Cote d'Ivoire	Africa	Africa
+41715	6555451	Stara Zagora	Bulgaria	EMEA	EMEA
+41981	6555452	Vratsa	Bulgaria	EMEA	EMEA
+42091	6555453	Jeju	South Korea	APAC	North Asia
+42182	6555454	Potosí	Bolivia	LATAM	South
+42283	6555455	Tambov	Russia	EMEA	EMEA
+42437	6555456	Splitsko-Dalmatinska	Croatia	EMEA	EMEA
+42523	6555457	Meta	Colombia	LATAM	South
+42668	6555458	Vest-Agder	Norway	EU	North
+43091	6555459	Elbasan	Albania	EMEA	EMEA
+44412	6555460	Gangwon	South Korea	APAC	North Asia
+44439	6555461	Jinja	Uganda	Africa	Africa
+45214	6555462	Ljubljana	Slovenia	EMEA	EMEA
+45224	6555463	Mandoul	Chad	Africa	Africa
+45234	6555464	Eastern	Sierra Leone	Africa	Africa
+45789	6555465	Río Negro	Argentina	LATAM	South
+46106	6555466	Yaracuy	Venezuela	LATAM	South
+46809	6555467	Ulaanbaatar	Mongolia	APAC	North Asia
+47306	6555468	Edirne	Turkey	EMEA	EMEA
+48229	6555469	Tarapacá	Chile	LATAM	South
+48452	6555470	Moscow	Russia	EMEA	EMEA
+48518	6555471	Lucerne	Switzerland	EU	Central
+48545	6555472	Nangarhar	Afghanistan	APAC	Central Asia
+51276	6555473	Hedmark	Norway	EU	North
