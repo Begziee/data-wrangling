@@ -1,0 +1,6 @@
+venv/
+README.md
+test.py
+.DS_Store
+__pycache__/
+helper/
