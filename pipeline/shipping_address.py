@@ -21,4 +21,3 @@ shipping_address_df = _read_csv("data/shippuingaddress_20240521.csv.csv")
 # shipping_address_df.show()
 shipping_address_df = _clean_address(shipping_address_df)
 shipping_address_df.show()
-
