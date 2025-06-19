@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-from helper.utils import _read_csv, _clean_column_effstart, _clean_post_code
+from helper.utils import _read_csv, _clean_address
 
 if "spark" in globals():
     spark.stop()
@@ -19,6 +19,5 @@ spark = (
 
 shipping_address_df = _read_csv("data/shippuingaddress_20240521.csv.csv")
 # shipping_address_df.show()
-shipping_address_df = _clean_column_effstart(shipping_address_df)
-# shipping_address_df.show()
-shipping_address_df = _clean_post_code(shipping_address_df)
+shipping_address_df = _clean_address(shipping_address_df)
+shipping_address_df.show()
