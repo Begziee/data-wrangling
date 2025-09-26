@@ -7628,13 +7628,13 @@ a.anchor-link {
 <pre>Ivy Default Cache set to: /Users/aramide/.ivy2/cache
 The jars for the packages stored in: /Users/aramide/.ivy2/jars
 com.databricks#spark-xml_2.12 added as a dependency
-:: resolving dependencies :: org.apache.spark#spark-submit-parent-fc858c8e-1c06-4b77-a592-efef22b79bbd;1.0
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-56ab14a1-8b5b-4235-b9b8-63b6bc638947;1.0
 	confs: [default]
 	found com.databricks#spark-xml_2.12;0.15.0 in central
 	found commons-io#commons-io;2.11.0 in central
 	found org.glassfish.jaxb#txw2;3.0.2 in central
 	found org.apache.ws.xmlschema#xmlschema-core;2.3.0 in central
-:: resolution report :: resolve 124ms :: artifacts dl 5ms
+:: resolution report :: resolve 121ms :: artifacts dl 5ms
 	:: modules in use:
 	com.databricks#spark-xml_2.12;0.15.0 from central in [default]
 	commons-io#commons-io;2.11.0 from central in [default]
@@ -7646,16 +7646,16 @@ com.databricks#spark-xml_2.12 added as a dependency
 	---------------------------------------------------------------------
 	|      default     |   4   |   0   |   0   |   0   ||   4   |   0   |
 	---------------------------------------------------------------------
-:: retrieving :: org.apache.spark#spark-submit-parent-fc858c8e-1c06-4b77-a592-efef22b79bbd
+:: retrieving :: org.apache.spark#spark-submit-parent-56ab14a1-8b5b-4235-b9b8-63b6bc638947
 	confs: [default]
-	0 artifacts copied, 4 already retrieved (0kB/4ms)
+	0 artifacts copied, 4 already retrieved (0kB/3ms)
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 11:17:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+<pre>25/09/26 15:03:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
 </pre>
@@ -7664,7 +7664,7 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 11:17:27 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+<pre>25/09/26 15:03:58 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
 </pre>
 </div>
 </div>
@@ -9293,16 +9293,14 @@ only showing top 20 rows
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 11:17:39 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+<pre>25/09/26 15:04:10 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-[Stage 241:&gt;                                                        (0 + 1) / 1]
-</pre>
+<pre>[Stage 241:&gt;                                                        (0 + 1) / 1]</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -24514,9 +24512,7 @@ root
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-                                                                                
-</pre>
+<pre>                                                                                </pre>
 </div>
 </div>
 </div>
@@ -25046,7 +25042,7 @@ root
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 11:17:46 WARN CSVHeaderChecker: CSV header does not conform to the schema.
+<pre>25/09/26 15:04:17 WARN CSVHeaderChecker: CSV header does not conform to the schema.
  Header: , Region_ID, State, Country, Market, Region
  Schema: _c0, Region_ID, State, Country, Market, Region
 Expected: _c0 but found: 
@@ -25089,7 +25085,7 @@ CSV file: file:///Users/aramide/Documents/selfdev/data-wrangling/data/regiontxt
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=01718ce7">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4d90ad59">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -25097,7 +25093,11 @@ CSV file: file:///Users/aramide/Documents/selfdev/data-wrangling/data/regiontxt
 <div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">region_df</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s1">'Country'</span><span class="p">)</span><span class="o">.</span><span class="n">distinct</span><span class="p">()</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># count unique Region_IDs and state</span>
+<span class="n">region_count</span> <span class="o">=</span> <span class="n">region_df</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">)</span><span class="o">.</span><span class="n">distinct</span><span class="p">()</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<span class="n">state_count</span> <span class="o">=</span> <span class="n">region_df</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">distinct</span><span class="p">()</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Unique Region_ID count: </span><span class="si">{</span><span class="n">region_count</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Unique State count: </span><span class="si">{</span><span class="n">state_count</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -25110,160 +25110,409 @@ CSV file: file:///Users/aramide/Documents/selfdev/data-wrangling/data/regiontxt
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>+--------------------------------+
-|Country                         |
-+--------------------------------+
-|Chad                            |
-|Russia                          |
-|Paraguay                        |
-|Yemen                           |
-|Senegal                         |
-|Sweden                          |
-|Philippines                     |
-|Eritrea                         |
-|Djibouti                        |
-|Malaysia                        |
-|Singapore                       |
-|Turkey                          |
-|Iraq                            |
-|Germany                         |
-|Afghanistan                     |
-|Cambodia                        |
-|Jordan                          |
-|Rwanda                          |
-|Sudan                           |
-|France                          |
-|Sri Lanka                       |
-|Taiwan                          |
-|Algeria                         |
-|Togo                            |
-|Equatorial Guinea               |
-|Slovakia                        |
-|Argentina                       |
-|Angola                          |
-|Belgium                         |
-|Qatar                           |
-|Ecuador                         |
-|Lesotho                         |
-|Madagascar                      |
-|Albania                         |
-|Finland                         |
-|Nicaragua                       |
-|Ghana                           |
-|Peru                            |
-|Benin                           |
-|Sierra Leone                    |
-|United States                   |
-|India                           |
-|China                           |
-|Belarus                         |
-|Somalia                         |
-|Chile                           |
-|Tajikistan                      |
-|Martinique                      |
-|Croatia                         |
-|Burundi                         |
-|Nigeria                         |
-|Bolivia                         |
-|Gabon                           |
-|Italy                           |
-|Lithuania                       |
-|Norway                          |
-|Turkmenistan                    |
-|Spain                           |
-|Cuba                            |
-|Mauritania                      |
-|Guadeloupe                      |
-|Niger                           |
-|Denmark                         |
-|Central African Republic        |
-|Bangladesh                      |
-|Barbados                        |
-|Iran                            |
-|Ireland                         |
-|Thailand                        |
-|Swaziland                       |
-|Democratic Republic of the Congo|
-|Morocco                         |
-|Panama                          |
-|Hong Kong                       |
-|Ukraine                         |
-|Venezuela                       |
-|Israel                          |
-|South Korea                     |
-|Uruguay                         |
-|Mexico                          |
-|Cote d'Ivoire                   |
-|Zimbabwe                        |
-|Estonia                         |
-|Georgia                         |
-|Montenegro                      |
-|Indonesia                       |
-|Guatemala                       |
-|Mongolia                        |
-|Republic of the Congo           |
-|Libya                           |
-|Azerbaijan                      |
-|Armenia                         |
-|Tunisia                         |
-|Liberia                         |
-|Honduras                        |
-|Syria                           |
-|Trinidad and Tobago             |
-|Saudi Arabia                    |
-|Uganda                          |
-|Namibia                         |
-|Myanmar (Burma)                 |
-|Switzerland                     |
-|Zambia                          |
-|Ethiopia                        |
-|Jamaica                         |
-|United Arab Emirates            |
-|South Sudan                     |
-|Guinea                          |
-|Canada                          |
-|Kyrgyzstan                      |
-|Macedonia                       |
-|Uzbekistan                      |
-|Czech Republic                  |
-|Mozambique                      |
-|Brazil                          |
-|Kenya                           |
-|Lebanon                         |
-|Slovenia                        |
-|Dominican Republic              |
-|Japan                           |
-|Tanzania                        |
-|New Zealand                     |
-|Bosnia and Herzegovina          |
-|Haiti                           |
-|Poland                          |
-|Portugal                        |
-|Australia                       |
-|Cameroon                        |
-|Papua New Guinea                |
-|Romania                         |
-|Guinea-Bissau                   |
-|Bulgaria                        |
-|Austria                         |
-|Nepal                           |
-|El Salvador                     |
-|Egypt                           |
-|Kazakhstan                      |
-|South Africa                    |
-|Bahrain                         |
-|Colombia                        |
-|Hungary                         |
-|Pakistan                        |
-|United Kingdom                  |
-|Moldova                         |
-|Vietnam                         |
-|Netherlands                     |
-|Mali                            |
-+--------------------------------+
+<pre>Unique Region_ID count: 1122
+Unique State count: 1090
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=782d363b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># find duplicates state records </span>
+<span class="n">dup_states</span> <span class="o">=</span> <span class="n">region_df</span><span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"count"</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span>
+<span class="n">region_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dup_states</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">"State"</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">"inner"</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">,</span> <span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">,</span> <span class="s2">"Market"</span><span class="p">,</span> <span class="s2">"Region"</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">asc</span><span class="p">())</span> \
+    <span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>+---------+----------------+------------------+------+--------------+
+|Region_ID|State           |Country           |Market|Region        |
++---------+----------------+------------------+------+--------------+
+|6554843  |Ash Sharqiyah   |Saudi Arabia      |EMEA  |EMEA          |
+|6554990  |Ash Sharqiyah   |Egypt             |Africa|Africa        |
+|6555186  |Carinthia       |Austria           |EU    |Central       |
+|6555272  |Carinthia       |Austria           |EMEA  |EMEA          |
+|6555112  |Central         |Paraguay          |LATAM |South         |
+|6555161  |Central         |Nepal             |APAC  |Central Asia  |
+|6555197  |Central         |Ghana             |Africa|Africa        |
+|6555369  |Central         |Zambia            |Africa|Africa        |
+|6555376  |Central         |Israel            |EMEA  |EMEA          |
+|6555430  |Central         |Kenya             |Africa|Africa        |
+|6554538  |Centre          |Cameroon          |Africa|Africa        |
+|6554616  |Centre          |France            |EU    |Central       |
+|6554818  |Córdoba         |Argentina         |LATAM |South         |
+|6555292  |Córdoba         |Colombia          |LATAM |South         |
+|6554522  |Eastern         |Ghana             |Africa|Africa        |
+|6555245  |Eastern         |Kenya             |Africa|Africa        |
+|6555434  |Eastern         |Zambia            |Africa|Africa        |
+|6555464  |Eastern         |Sierra Leone      |Africa|Africa        |
+|6554847  |Huila           |Colombia          |LATAM |South         |
+|6555382  |Huila           |Angola            |Africa|Africa        |
+|6554478  |La Libertad     |El Salvador       |LATAM |Central       |
+|6555169  |La Libertad     |Peru              |LATAM |South         |
+|6554735  |Limburg         |Belgium           |EU    |Central       |
+|6554877  |Limburg         |Netherlands       |EU    |Central       |
+|6554865  |Littoral        |Benin             |Africa|Africa        |
+|6554869  |Littoral        |Cameroon          |Africa|Africa        |
+|6554349  |National Capital|Philippines       |APAC  |Southeast Asia|
+|6554902  |National Capital|Papua New Guinea  |APAC  |Oceania       |
+|6554691  |Northern        |Ghana             |Africa|Africa        |
+|6555294  |Northern        |Zambia            |Africa|Africa        |
+|6555415  |Northern        |Sierra Leone      |Africa|Africa        |
+|6554375  |Ouest           |Haiti             |LATAM |Caribbean     |
+|6554596  |Ouest           |Cameroon          |Africa|Africa        |
+|6554533  |Punjab          |Pakistan          |APAC  |Central Asia  |
+|6554582  |Punjab          |India             |APAC  |Central Asia  |
+|6554876  |Salzburg        |Austria           |EU    |Central       |
+|6555028  |Salzburg        |Austria           |EMEA  |EMEA          |
+|6554657  |San Juan        |Argentina         |LATAM |South         |
+|6555008  |San Juan        |Dominican Republic|LATAM |Caribbean     |
+|6554630  |Santiago        |Chile             |LATAM |South         |
+|6554646  |Santiago        |Dominican Republic|LATAM |Caribbean     |
+|6554435  |Southern        |Zambia            |Africa|Africa        |
+|6554703  |Southern        |Rwanda            |Africa|Africa        |
+|6554862  |Southern        |Israel            |EMEA  |EMEA          |
+|6555084  |Southern        |Sierra Leone      |Africa|Africa        |
+|6555079  |Styria          |Austria           |EU    |Central       |
+|6555338  |Styria          |Austria           |EMEA  |EMEA          |
+|6554643  |Tyrol           |Austria           |EU    |Central       |
+|6555068  |Tyrol           |Austria           |EMEA  |EMEA          |
+|6554800  |Ulaanbaatar     |Mongolia          |EMEA  |EMEA          |
+|6555467  |Ulaanbaatar     |Mongolia          |APAC  |North Asia    |
+|6554858  |Upper Austria   |Austria           |EU    |Central       |
+|6555166  |Upper Austria   |Austria           |EMEA  |EMEA          |
+|6554410  |Vienna          |Austria           |EU    |Central       |
+|6554610  |Vienna          |Austria           |EMEA  |EMEA          |
++---------+----------------+------------------+------+--------------+
 
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=41754f75">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># find duplicates based on State and Country</span>
+<span class="n">dup_states_country</span> <span class="o">=</span> <span class="n">region_df</span><span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="s2">"State"</span><span class="p">,</span><span class="s2">"Country"</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"count"</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span>
+<span class="n">region_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dup_states_country</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">"State"</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">"inner"</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">,</span> <span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">,</span> <span class="s2">"Market"</span><span class="p">,</span> <span class="s2">"Region"</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">asc</span><span class="p">())</span> \
+    <span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>+---------+-------------+--------+------+----------+
+|Region_ID|State        |Country |Market|Region    |
++---------+-------------+--------+------+----------+
+|6555186  |Carinthia    |Austria |EU    |Central   |
+|6555272  |Carinthia    |Austria |EMEA  |EMEA      |
+|6554876  |Salzburg     |Austria |EU    |Central   |
+|6555028  |Salzburg     |Austria |EMEA  |EMEA      |
+|6555079  |Styria       |Austria |EU    |Central   |
+|6555338  |Styria       |Austria |EMEA  |EMEA      |
+|6554643  |Tyrol        |Austria |EU    |Central   |
+|6555068  |Tyrol        |Austria |EMEA  |EMEA      |
+|6554800  |Ulaanbaatar  |Mongolia|EMEA  |EMEA      |
+|6555467  |Ulaanbaatar  |Mongolia|APAC  |North Asia|
+|6554858  |Upper Austria|Austria |EU    |Central   |
+|6555166  |Upper Austria|Austria |EMEA  |EMEA      |
+|6554410  |Vienna       |Austria |EU    |Central   |
+|6554610  |Vienna       |Austria |EMEA  |EMEA      |
++---------+-------------+--------+------+----------+
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=74faaeb6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ...existing code...</span>
+<span class="c1"># find states with duplicates among EMEA rows, then show those EMEA records ordered by State</span>
+<span class="n">dup_states_country</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">region_df</span>
+    <span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">count</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"count"</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">region_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dup_states_country</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s2">"State"</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">"inner"</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">filter</span><span class="p">((</span><span class="n">col</span><span class="p">(</span><span class="s2">"Market"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"EMEA"</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"Region"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"EMEA"</span><span class="p">))</span> \
+    <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">,</span> <span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">,</span> <span class="s2">"Market"</span><span class="p">,</span> <span class="s2">"Region"</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">asc</span><span class="p">())</span> \
+    <span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>+---------+-------------+--------+------+------+
+|Region_ID|State        |Country |Market|Region|
++---------+-------------+--------+------+------+
+|6555272  |Carinthia    |Austria |EMEA  |EMEA  |
+|6555028  |Salzburg     |Austria |EMEA  |EMEA  |
+|6555338  |Styria       |Austria |EMEA  |EMEA  |
+|6555068  |Tyrol        |Austria |EMEA  |EMEA  |
+|6554800  |Ulaanbaatar  |Mongolia|EMEA  |EMEA  |
+|6555166  |Upper Austria|Austria |EMEA  |EMEA  |
+|6554610  |Vienna       |Austria |EMEA  |EMEA  |
++---------+-------------+--------+------+------+
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f12f4d83">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h5 id="Summary-of-Findings-After-Filtering-for-id-duplicate-records">Summary of Findings After Filtering for id duplicate records<a class="anchor-link" href="#Summary-of-Findings-After-Filtering-for-id-duplicate-records">¶</a></h5><p>After careful analysis of the duplicate records, the following were identified:</p>
+<ul>
+<li>region_df contains 1,122 distinct Region_IDs and 1,090 unique State values.</li>
+<li>It is normal for a State name to appear in multiple countries. The anomaly is when the same State within the same Country appears with conflicting Market/Region assignments.</li>
+<li>Investigation shows some State–Country pairs are mapped to more than one Market/Region. These conflicting mappings are treated as data-quality issues.</li>
+</ul>
+<p>Production Implementation Rules</p>
+<ol>
+<li><p><strong>Complete Match Preservation</strong><br/>
+For any State–Country pair that has conflicting records, remove the record where Market = "EMEA" and Region = "EMEA". Keep the non-EMEA canonical entry.</p>
+</li>
+<li><p><strong>Partial Duplicate Removal</strong><br/>
+All records that match on some but not all attributes will be dropped</p>
+</li>
+<li><p><strong>Quality Assurance</strong><br/>
+This conservative approach ensures:</p>
+<ul>
+<li>Consistent data integrity</li>
+<li>Elimination of ambiguous records</li>
+<li>Reliable downstream processing</li>
+</ul>
+</li>
+</ol>
+<p><strong>Technical Justification</strong></p>
+<p>The strategy prioritises data quality over completeness to:</p>
+<ul>
+<li>Prioritise correctness over completeness to avoid propagating inconsistent mappings.</li>
+<li>Maintain clean master data</li>
+<li>Support reliable analytics and operations</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=06c69cd7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># find State+Country pairs that have duplicate records</span>
+<span class="n">dup_pairs</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">region_df</span>
+    <span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">count</span><span class="p">()</span>
+    <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"count"</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="c1"># EMEA records to be excluded (duplicates within the same State+Country)</span>
+<span class="n">excluded_emea</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">region_df</span>
+    <span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dup_pairs</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="p">[</span><span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">],</span> <span class="n">how</span><span class="o">=</span><span class="s2">"inner"</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">filter</span><span class="p">((</span><span class="n">col</span><span class="p">(</span><span class="s2">"Market"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"EMEA"</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"Region"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"EMEA"</span><span class="p">))</span>
+    <span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">,</span> <span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">,</span> <span class="s2">"Market"</span><span class="p">,</span> <span class="s2">"Region"</span><span class="p">)</span>
+    <span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">asc</span><span class="p">())</span>
+<span class="p">)</span>
+
+<span class="c1"># create cleaned region_df (remove the excluded EMEA rows)</span>
+<span class="n">region_df</span> <span class="o">=</span> <span class="n">region_df</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">excluded_emea</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">),</span> <span class="n">on</span><span class="o">=</span><span class="s2">"Region_ID"</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">"left_anti"</span><span class="p">)</span>
+
+<span class="c1"># inspect cleaned frame</span>
+<span class="n">region_df</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">"Region_ID"</span><span class="p">,</span> <span class="s2">"State"</span><span class="p">,</span> <span class="s2">"Country"</span><span class="p">,</span> <span class="s2">"Market"</span><span class="p">,</span> <span class="s2">"Region"</span><span class="p">)</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"State"</span><span class="p">)</span><span class="o">.</span><span class="n">asc</span><span class="p">())</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="c1"># ...existing</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>+---------+----------------------------+--------------------+------+--------------+
+|Region_ID|State                       |Country             |Market|Region        |
++---------+----------------------------+--------------------+------+--------------+
+|6555318  |'Ajman                      |United Arab Emirates|EMEA  |EMEA          |
+|6554695  |'Amman                      |Jordan              |EMEA  |EMEA          |
+|6555110  |'Asir                       |Saudi Arabia        |EMEA  |EMEA          |
+|6554443  |Abia                        |Nigeria             |Africa|Africa        |
+|6554679  |Abruzzi                     |Italy               |EU    |South         |
+|6555135  |Abuja Capital Territory     |Nigeria             |Africa|Africa        |
+|6555367  |Aceh                        |Indonesia           |APAC  |Southeast Asia|
+|6554848  |Acre                        |Brazil              |LATAM |South         |
+|6554751  |Ad Dawhah                   |Qatar               |EMEA  |EMEA          |
+|6554718  |Adamaoua                    |Cameroon            |Africa|Africa        |
+|6555091  |Adamawa                     |Nigeria             |Africa|Africa        |
+|6554545  |Adana                       |Turkey              |EMEA  |EMEA          |
+|6555227  |Adiyaman                    |Turkey              |EMEA  |EMEA          |
+|6555343  |Afyonkarahisar              |Turkey              |EMEA  |EMEA          |
+|6555062  |Aichi                       |Japan               |APAC  |North Asia    |
+|6555108  |Aksaray                     |Turkey              |EMEA  |EMEA          |
+|6554713  |Akwa Ibom                   |Nigeria             |Africa|Africa        |
+|6555118  |Al Bahr Al Ahmar            |Egypt               |Africa|Africa        |
+|6554597  |Al Basrah                   |Iraq                |EMEA  |EMEA          |
+|6555184  |Al Buhayrah                 |Egypt               |Africa|Africa        |
+|6555196  |Al Fayyum                   |Egypt               |Africa|Africa        |
+|6554870  |Al Gharbiyah                |Egypt               |Africa|Africa        |
+|6555085  |Al Hudaydah                 |Yemen               |EMEA  |EMEA          |
+|6554601  |Al Iskandariyah             |Egypt               |Africa|Africa        |
+|6555016  |Al Jawf                     |Saudi Arabia        |EMEA  |EMEA          |
+|6554992  |Al Madinah                  |Saudi Arabia        |EMEA  |EMEA          |
+|6555308  |Al Marqab                   |Libya               |Africa|Africa        |
+|6555087  |Al Minufiyah                |Egypt               |Africa|Africa        |
+|6554783  |Al Minya                    |Egypt               |Africa|Africa        |
+|6554863  |Al Qadisiyah                |Iraq                |EMEA  |EMEA          |
+|6554614  |Al Qahirah                  |Egypt               |Africa|Africa        |
+|6554740  |Alabama                     |United States       |US    |South         |
+|6554561  |Alagoas                     |Brazil              |LATAM |South         |
+|6554706  |Alberta                     |Canada              |Canada|Canada        |
+|6554441  |Alger                       |Algeria             |Africa|Africa        |
+|6555029  |Alibori                     |Benin               |Africa|Africa        |
+|6555181  |Almaty                      |Kazakhstan          |EMEA  |EMEA          |
+|6554874  |Almaty City                 |Kazakhstan          |EMEA  |EMEA          |
+|6554658  |Alsace                      |France              |EU    |Central       |
+|6554881  |Amapá                       |Brazil              |LATAM |South         |
+|6555303  |Amasya                      |Turkey              |EMEA  |EMEA          |
+|6554615  |Amazonas                    |Brazil              |LATAM |South         |
+|6555289  |Amur                        |Russia              |EMEA  |EMEA          |
+|6554965  |Analamanga                  |Madagascar          |Africa|Africa        |
+|6554442  |Anambra                     |Nigeria             |Africa|Africa        |
+|6554994  |Ancash                      |Peru                |LATAM |South         |
+|6554492  |Andalusía                   |Spain               |EU    |South         |
+|6554680  |Andhra Pradesh              |India               |APAC  |Central Asia  |
+|6555256  |Andijan                     |Uzbekistan          |EMEA  |EMEA          |
+|6554642  |Anhui                       |China               |APAC  |North Asia    |
+|6554428  |Ankara                      |Turkey              |EMEA  |EMEA          |
+|6555172  |Annaba                      |Algeria             |Africa|Africa        |
+|6555353  |Anseba                      |Eritrea             |Africa|Africa        |
+|6554696  |Antalya                     |Turkey              |EMEA  |EMEA          |
+|6554473  |Antioquia                   |Colombia            |LATAM |South         |
+|6555209  |Antofagasta                 |Chile               |LATAM |South         |
+|6554940  |Antwerp                     |Belgium             |EU    |Central       |
+|6554878  |Anzoátegui                  |Venezuela           |LATAM |South         |
+|6554945  |Aomori                      |Japan               |APAC  |North Asia    |
+|6554376  |Apulia                      |Italy               |EU    |South         |
+|6555265  |Aqmola                      |Kazakhstan          |EMEA  |EMEA          |
+|6554405  |Aquitaine                   |France              |EU    |Central       |
+|6555421  |Ar Raqqah                   |Syria               |EMEA  |EMEA          |
+|6554605  |Ar Riyad                    |Saudi Arabia        |EMEA  |EMEA          |
+|6555310  |Arad                        |Romania             |EMEA  |EMEA          |
+|6554503  |Aragua                      |Venezuela           |LATAM |South         |
+|6555409  |Arauca                      |Colombia            |LATAM |South         |
+|6554888  |Arbil                       |Iraq                |EMEA  |EMEA          |
+|6554711  |Ardabil                     |Iran                |EMEA  |EMEA          |
+|6555312  |Ardahan                     |Turkey              |EMEA  |EMEA          |
+|6555351  |Arequipa                    |Peru                |LATAM |South         |
+|6555392  |Arges                       |Romania             |EMEA  |EMEA          |
+|6555391  |Arica y Parinacota          |Chile               |LATAM |South         |
+|6554372  |Arizona                     |United States       |US    |West          |
+|6555099  |Arkansas                    |United States       |US    |South         |
+|6555050  |Arkhangel'sk                |Russia              |EMEA  |EMEA          |
+|6554404  |Artemisa                    |Cuba                |LATAM |Caribbean     |
+|6554667  |Artibonite                  |Haiti               |LATAM |Caribbean     |
+|6555109  |Arusha                      |Tanzania            |Africa|Africa        |
+|6554843  |Ash Sharqiyah               |Saudi Arabia        |EMEA  |EMEA          |
+|6554990  |Ash Sharqiyah               |Egypt               |Africa|Africa        |
+|6554548  |Ashanti                     |Ghana               |Africa|Africa        |
+|6555053  |Ashgabat                    |Turkmenistan        |EMEA  |EMEA          |
+|6554734  |Assam                       |India               |APAC  |Central Asia  |
+|6555157  |Astana                      |Kazakhstan          |EMEA  |EMEA          |
+|6554780  |Astrakhan'                  |Russia              |EMEA  |EMEA          |
+|6555063  |Asturias                    |Spain               |EU    |South         |
+|6555413  |Asunción                    |Paraguay            |LATAM |South         |
+|6555058  |Aswan                       |Egypt               |Africa|Africa        |
+|6555107  |Asyut                       |Egypt               |Africa|Africa        |
+|6555080  |Atacama                     |Chile               |LATAM |South         |
+|6554875  |Atakora                     |Benin               |Africa|Africa        |
+|6555163  |Atlantique                  |Benin               |Africa|Africa        |
+|6554530  |Atlántico                   |Colombia            |LATAM |South         |
+|6554899  |Atlántida                   |Honduras            |LATAM |Central       |
+|6555304  |Atsimo-Andrefana            |Madagascar          |Africa|Africa        |
+|6555238  |Atsinanana                  |Madagascar          |Africa|Africa        |
+|6554476  |Auckland                    |New Zealand         |APAC  |Oceania       |
+|6554487  |Australian Capital Territory|Australia           |APAC  |Oceania       |
+|6555047  |Auvergne                    |France              |EU    |Central       |
++---------+----------------------------+--------------------+------+--------------+
+only showing top 100 rows
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c3275ba0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Invoice-Data:-Loading,-Analysis,-and-Cleaning-Approach">Invoice Data: Loading, Analysis, and Cleaning Approach<a class="anchor-link" href="#Invoice-Data:-Loading,-Analysis,-and-Cleaning-Approach">¶</a></h3>
 </div>
 </div>
 </div>
@@ -25272,7 +25521,7 @@ CSV file: file:///Users/aramide/Documents/selfdev/data-wrangling/data/regiontxt
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load invoice data</span>
@@ -25298,9 +25547,7 @@ CSV file: file:///Users/aramide/Documents/selfdev/data-wrangling/data/regiontxt
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-[Stage 299:&gt;                                                        (0 + 1) / 1]
-</pre>
+<pre>[Stage 326:&gt;                                                        (0 + 1) / 1]</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -25353,10 +25600,19 @@ root
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-                                                                                
-</pre>
+<pre>                                                                                </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f21c1321">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Customer-Data:-Loading,-Analysis,-and-Cleaning-Approach">Customer Data: Loading, Analysis, and Cleaning Approach<a class="anchor-link" href="#Customer-Data:-Loading,-Analysis,-and-Cleaning-Approach">¶</a></h3>
 </div>
 </div>
 </div>
@@ -25365,7 +25621,7 @@ root
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load Customer data</span>
