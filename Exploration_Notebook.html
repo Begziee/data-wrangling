@@ -7628,13 +7628,13 @@ a.anchor-link {
 <pre>Ivy Default Cache set to: /Users/aramide/.ivy2/cache
 The jars for the packages stored in: /Users/aramide/.ivy2/jars
 com.databricks#spark-xml_2.12 added as a dependency
-:: resolving dependencies :: org.apache.spark#spark-submit-parent-56ab14a1-8b5b-4235-b9b8-63b6bc638947;1.0
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-7516055c-dece-434a-b38a-d65c8504ddf9;1.0
 	confs: [default]
 	found com.databricks#spark-xml_2.12;0.15.0 in central
 	found commons-io#commons-io;2.11.0 in central
 	found org.glassfish.jaxb#txw2;3.0.2 in central
 	found org.apache.ws.xmlschema#xmlschema-core;2.3.0 in central
-:: resolution report :: resolve 121ms :: artifacts dl 5ms
+:: resolution report :: resolve 112ms :: artifacts dl 4ms
 	:: modules in use:
 	com.databricks#spark-xml_2.12;0.15.0 from central in [default]
 	commons-io#commons-io;2.11.0 from central in [default]
@@ -7646,16 +7646,16 @@ com.databricks#spark-xml_2.12 added as a dependency
 	---------------------------------------------------------------------
 	|      default     |   4   |   0   |   0   |   0   ||   4   |   0   |
 	---------------------------------------------------------------------
-:: retrieving :: org.apache.spark#spark-submit-parent-56ab14a1-8b5b-4235-b9b8-63b6bc638947
+:: retrieving :: org.apache.spark#spark-submit-parent-7516055c-dece-434a-b38a-d65c8504ddf9
 	confs: [default]
-	0 artifacts copied, 4 already retrieved (0kB/3ms)
+	0 artifacts copied, 4 already retrieved (0kB/4ms)
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 15:03:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+<pre>25/09/26 15:07:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
 </pre>
@@ -7664,7 +7664,7 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 15:03:58 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+<pre>25/09/26 15:07:46 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
 </pre>
 </div>
 </div>
@@ -9293,14 +9293,16 @@ only showing top 20 rows
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 15:04:10 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+<pre>25/09/26 15:07:59 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[Stage 241:&gt;                                                        (0 + 1) / 1]</pre>
+<pre>
+[Stage 241:&gt;                                                        (0 + 1) / 1]
+</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -24512,7 +24514,9 @@ root
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>                                                                                </pre>
+<pre>
+                                                                                
+</pre>
 </div>
 </div>
 </div>
@@ -25042,7 +25046,7 @@ root
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>25/09/26 15:04:17 WARN CSVHeaderChecker: CSV header does not conform to the schema.
+<pre>25/09/26 15:08:05 WARN CSVHeaderChecker: CSV header does not conform to the schema.
  Header: , Region_ID, State, Country, Market, Region
  Schema: _c0, Region_ID, State, Country, Market, Region
 Expected: _c0 but found: 
@@ -25547,7 +25551,9 @@ only showing top 100 rows
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[Stage 326:&gt;                                                        (0 + 1) / 1]</pre>
+<pre>
+[Stage 325:&gt;                                                        (0 + 1) / 1]
+</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -25600,7 +25606,9 @@ root
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>                                                                                </pre>
+<pre>
+                                                                                
+</pre>
 </div>
 </div>
 </div>
