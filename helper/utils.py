@@ -13,8 +13,14 @@ from pyspark.sql.functions import (
     regexp_extract,
     concat_ws,
     trim,
+    from_json,
+    to_json,
+    explode,
+    map_entries,
 )
+from pyspark.sql.types import MapType, StringType
 import os
+import re
 
 if "spark" in globals():
     spark.stop()
@@ -323,3 +329,123 @@ def _clean_address(df):
 
     print("Address columns cleaned successfully.")
     return df6
+
+def _read_txt(file_path):
+    """
+    Reads a TXT file into a Spark DataFrame, ensuring the file exists and is not empty.
+    :param file_path: Path to the TXT file to be read.
+    :return: Spark DataFrame containing the data from the TXT file.
+    :raises ValueError: If the file path does not point to a TXT file or if the file is empty.
+    :raises FileNotFoundError: If the file does not exist or is not accessible.
+    """
+    if not file_path.endswith(".txt"):
+        raise ValueError("The provided file path must point to a TXT file.")
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(
+            f"The file {file_path} does not exist or is not accessible."
+        )
+
+    print(f"Reading TXT file from: {file_path}")
+    data_txt = spark.sparkContext.textFile(file_path)
+    if data_txt.isEmpty():
+        raise ValueError(f"The file {file_path} is empty.")
+    
+    # Read the TXT file into a DataFrame
+    print(f"File {file_path} exists and is not empty.")
+    data_txt = spark.read.options(header=True, inferSchema=True).csv(data_txt, sep="\t")
+    print(f"{data_txt.count()} records read from {file_path}")
+    print(f"Deduplicating records ...")
+
+    # Remove records with null or NaN in the 'Region_ID' column
+    data_txt = data_txt.dropna(subset=["Region_ID"])
+
+    # This can be exposed to further investigate the duplicate records later in the future
+    duplicate_pairs = data_txt.groupBy("State", "Country").count().filter(col("count") > 1).select("State", "Country")
+    excluded_emea = data_txt.join(duplicate_pairs, on=["State", "Country"], how="inner").filter((col("Market") == "EMEA") & (col("Region") == "EMEA")).select("Region_ID", "State", "Country", "Market", "Region")
+    print(f"Found {excluded_emea.count()} duplicate records based on 'State' and 'Country' columns.")
+    # create cleaned region_df (remove the excluded EMEA rows)  
+    data_txt = data_txt.join(excluded_emea.select("Region_ID"), on="Region_ID", how="left_anti")    
+    print(f"{data_txt.count()} records after deduplication.")
+
+    return data_txt
+
+def _read_json(file_path):
+    """
+    Reads a JSON file into a Spark DataFrame, ensuring the file exists and is not empty.
+    :param file_path: Path to the JSON file to be read.
+    :return: Spark DataFrame containing the data from the JSON file.
+    :raises ValueError: If the file path does not point to a JSON file or if the file is empty.
+    :raises FileNotFoundError: If the file does not exist or is not accessible.
+    """
+    if not file_path.endswith(".json"):
+        raise ValueError("The provided file path must point to a JSON file.")
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(
+            f"The file {file_path} does not exist or is not accessible."
+        )
+
+    print(f"Reading JSON file from: {file_path}")
+    data_json = spark.sparkContext.textFile(file_path)
+    if data_json.isEmpty():
+        raise ValueError(f"The file {file_path} is empty.")
+    
+    # Read the JSON file into a DataFrame
+    print(f"File {file_path} exists and is not empty.")
+    data_json = spark.read.option("multiLine", "true").json(file_path)
+
+    # convert each specified struct/column to a MapType column
+    map_cols = {
+        "Category": "Category",
+        "Product_ID": "Product_ID",
+        "Product_Name": "Product_Name",
+        "Sub-Category": "Sub_Category"
+        }
+    
+    map_aliases = {}
+    select_exprs = []
+    for src_col, out_col in map_cols.items():
+        safe_alias = re.sub(r'\W+', '_', out_col) + "Map"
+        map_aliases[out_col] = safe_alias
+        select_exprs.append(from_json(to_json(col(src_col)), MapType(StringType(), StringType())).alias(safe_alias))
+
+    transformed = data_json.select(*select_exprs)
+
+    # explode each map into a small (id, value) DataFrame
+    exploded_dfs = []
+    for out_col, map_alias in map_aliases.items():
+        safe_out = re.sub(r'\W+', '_', out_col)
+        kv = transformed.select(explode(map_entries(col(map_alias))).alias("kv")) \
+                        .select(col("kv.key").alias("id"), col("kv.value").alias(safe_out))
+        exploded_dfs.append(kv)
+
+    json_df = exploded_dfs[0]
+    for part in exploded_dfs[1:]:
+        json_df = json_df.join(part, on="id", how="inner")
+    
+    print(f"{json_df.count()} records read from {file_path}")
+    
+    print(f"Validating invalid id records ...")
+    null_records = json_df.filter(col("id").isNull()).count()
+    print(f"Found {null_records} records with null 'id' column.")
+    if null_records > 0:
+        print("Removing records with null 'id' ...")
+        json_df = json_df.dropna(subset=["id"])
+
+
+    print(f"Running checks to detect duplicate reords ...")
+    # find distinct Product_IDs that occur more than once
+    duplicate_ids = json_df.groupBy("Product_ID").count().filter(col("count") > 1).select("Product_ID")
+    # number of distinct Product_ID values that are duplicated
+    duplicate_distinct_count = duplicate_ids.count()
+    # total number of rows in json_df that belong to those duplicated Product_IDs
+    duplicate_rows_count = json_df.join(duplicate_ids, on="Product_ID", how="inner").count()
+    if duplicate_rows_count > 0:
+        print(f"Found {duplicate_distinct_count} distinct Product_ID(s) with duplicates.")
+        print(f"Deduplicating records ...")
+        print(f"Total number of rows with duplicated Product_ID(s): {duplicate_rows_count}.")
+        duplicate_records = json_df.join(duplicate_ids, on="Product_ID", how="inner")
+        json_df = json_df.exceptAll(duplicate_records)
+    else:
+        print("No duplicate records found.")
+    return json_df
+

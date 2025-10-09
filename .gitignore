@@ -3,3 +3,5 @@ README.md
 test.py
 .DS_Store
 __pycache__/
+pipeline/__pycache__/
+helper/__pycache__/
