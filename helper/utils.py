@@ -74,6 +74,8 @@ def _read_csv(file_path):
     data_csv = data_csv.exceptAll(duplicate_records)
     print(f"{data_csv.count()} records after deduplication.")
 
+    # Clean all columns
+    data_csv = _clean_address_dataset(data_csv)
     return data_csv
 
 
@@ -310,7 +312,7 @@ def _select_columns(df):
     return df
 
 
-def _clean_address(df):
+def _clean_address_dataset(df):
     """
     Cleans the address-related columns in the DataFrame by applying various cleaning functions.
     This includes cleaning postal codes, effective start and end dates, customer IDs, and country names.

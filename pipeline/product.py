@@ -18,5 +18,4 @@ spark = (
 )
 
 product_df = _read_json("data/product.json")
-# shipping_address_df.show()
 product_df.show()
